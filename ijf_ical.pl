@@ -2,11 +2,13 @@
 use strict;
 use warnings;
 
+use Data::Dumper;
+
 use Data::ICal;
 use Data::ICal::Entry::Event;
 use Date::ICal;
-use JSON qw( decode_json );  
-use LWP::Simple;             
+use JSON qw( decode_json );
+use LWP::Simple;
 
 my @dates;
 my $calendar = Data::ICal->new();
@@ -19,7 +21,7 @@ for my $age (qw/SEN JUN CAD/) {
         );
 
     my $decoded_json = decode_json($json);
-    
+
     for my $event (@$decoded_json) {
         $event->{age} = $age || 'SEN';
         push @dates, $event;
@@ -34,9 +36,14 @@ for my $event (@dates) {
     $event->{date_from} =~ m{(\d+)/(\d+)/(\d+)};
     $vevent->add_properties(
         summary     => $event->{name},
-        description => $event->{name} . ' ('
-            . $event->{country_short} . ') '
-            . $event->{rank_name},
+        description => $event->{name}
+            . ' ('
+            . $event->{country_short}
+            . ') '
+            . $event->{rank_name}
+            . ' ['
+            . $event->{age}
+            . ']',
         dtstart => Date::ICal->new(
             year  => $1,
             month => $2,
