@@ -362,11 +362,17 @@ DTSTART:20170603T100000Z
 SUMMARY:Leibnitz Junior European Cup 2017
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Athens Veteran European Championships 2017 (GRE) European Champ
+DESCRIPTION:Zagreb Veteran European Championships 2017 (CRO) European Champ
  ionships [SEN]
 DTEND:20170616T200000Z
 DTSTART:20170615T100000Z
-SUMMARY:Athens Veteran European Championships 2017
+SUMMARY:Zagreb Veteran European Championships 2017
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Cancun Grand Prix 2017 (MEX) Grand Prix [SEN]
+DTEND:20170618T200000Z
+DTSTART:20170616T100000Z
+SUMMARY:Cancun Grand Prix 2017
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Celje-Podcetrtek Senior European Cup 2017 (SLO) Continental Cup
