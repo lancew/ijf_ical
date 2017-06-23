@@ -17,7 +17,12 @@ my $json;
 for my $age (qw/SEN JUN CAD/) {
     $json
         = get(
-        "http://data.judobase.org/api/get_json?params[action]=competition.get_list&params[year]=2017&params[id_age]=$age"
+        'http://data.judobase.org/'
+        . 'api/get_json'
+        . '?params[action]=competition.get_list'
+        . '&params[year]=2017'
+        . '&params[id_age]='
+        . $age
         );
 
     my $decoded_json = decode_json($json);
@@ -34,6 +39,8 @@ for my $event (@dates) {
     my $vevent = Data::ICal::Entry::Event->new;
 
     $event->{date_from} =~ m{(\d+)/(\d+)/(\d+)};
+    next unless $1 && $2 && $3;
+
     $vevent->add_properties(
         summary     => $event->{name},
         description => $event->{name}
@@ -53,6 +60,8 @@ for my $event (@dates) {
     );
 
     $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)};
+    next unless $1 && $2 && $3;
+
     $vevent->add_properties(
         dtend => Date::ICal->new(
             year  => $1,
