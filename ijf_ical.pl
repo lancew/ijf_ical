@@ -38,8 +38,8 @@ for my $age (qw/SEN JUN CAD/) {
 for my $event (@dates) {
     my $vevent = Data::ICal::Entry::Event->new;
 
-    $event->{date_from} =~ m{(\d+)/(\d+)/(\d+)};
-    next unless $1 && $2 && $3;
+    $event->{date_from} =~ m{(\d+)/(\d+)/(\d+)}
+        or die 'Date did not match';
 
     $vevent->add_properties(
         summary     => $event->{name},
@@ -59,8 +59,8 @@ for my $event (@dates) {
         )->ical,
     );
 
-    $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)};
-    next unless $1 && $2 && $3;
+    $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)}
+        or die 'Date did not match';
 
     $vevent->add_properties(
         dtend => Date::ICal->new(
