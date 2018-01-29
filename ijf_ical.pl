@@ -19,7 +19,7 @@ for my $age (qw/SEN JUN CAD/) {
         = get('http://data.judobase.org/'
             . 'api/get_json'
             . '?params[action]=competition.get_list'
-            . '&params[year]=2017'
+            . '&params[year]=2018'
             . '&params[id_age]='
             . $age );
 
