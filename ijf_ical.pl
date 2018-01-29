@@ -40,7 +40,7 @@ for my $event (@dates) {
         or die 'Date did not match';
 
     $vevent->add_properties(
-        summary     => $event->{name},
+        summary     => '[' . $event->{age} . '] ' . $event->{name},
         description => $event->{name} . ' ('
             . $event->{country_short} . ') '
             . $event->{rank_name} . ' ['
