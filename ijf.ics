@@ -616,6 +616,13 @@ DTSTART:20180829T090000Z
 SUMMARY:SEN 18th Asian Games Jakarta 2018
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Bratislava Senior European Cup 2018 (SVK) Continental Cup [SEN]
+ 
+DTEND:20180902T190000Z
+DTSTART:20180901T090000Z
+SUMMARY:SEN Bratislava Senior European Cup 2018
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Santo Domingo Panamerican Open 2018 (DOM) Panamerican Open [SEN
  ]
 DTEND:20180902T190000Z
@@ -623,11 +630,12 @@ DTSTART:20180901T090000Z
 SUMMARY:SEN Santo Domingo Panamerican Open 2018
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Bratislava Senior European Cup 2018 (SVK) Continental Cup [SEN]
- 
-DTEND:20180902T190000Z
-DTSTART:20180901T090000Z
-SUMMARY:SEN Bratislava Senior European Cup 2018
+DESCRIPTION:Annual International Vladivostok Jigoro Kano Cadet Judo Tournam
+ ent (RUS) Other events [CAD]
+DTEND:20180913T190000Z
+DTSTART:20180910T090000Z
+SUMMARY:CAD Annual International Vladivostok Jigoro Kano Cadet Judo Tournam
+ ent
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:European Junior Championships 2018 (BUL) European Championships
