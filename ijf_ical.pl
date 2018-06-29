@@ -14,20 +14,23 @@ my @dates;
 my $calendar = Data::ICal->new();
 my $json;
 
-for my $age (qw/SEN JUN CAD/) {
-    $json
-        = get('http://data.judobase.org/'
-            . 'api/get_json'
-            . '?params[action]=competition.get_list'
-            . '&params[year]=2018'
-            . '&params[id_age]='
-            . $age );
+for my $year (qw/2018 2019/){
+    for my $age (qw/SEN JUN CAD/) {
+        $json
+            = get('http://data.judobase.org/'
+                . 'api/get_json'
+                . '?params[action]=competition.get_list'
+                . '&params[year]='
+                . $year
+                . '&params[id_age]='
+                . $age );
 
-    my $decoded_json = decode_json($json);
+        my $decoded_json = decode_json($json);
 
-    for my $event (@$decoded_json) {
-        $event->{age} = $age || 'SEN';
-        push @dates, $event;
+        for my $event (@$decoded_json) {
+            $event->{age} = $age || 'SEN';
+            push @dates, $event;
+        }
     }
 }
 
