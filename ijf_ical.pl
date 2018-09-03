@@ -42,6 +42,9 @@ for my $event (@dates) {
     $event->{date_from} =~ m{(\d+)/(\d+)/(\d+)}
         or die 'Date did not match';
 
+    my $uid = $event->{name};
+    $uid =~ s/ //g;
+
     $vevent->add_properties(
         summary     => $event->{age} . ' ' . $event->{name},
         description => $event->{name} . ' ('
@@ -65,7 +68,7 @@ for my $event (@dates) {
             month => $2,
             day   => $3,
             hour  => 10
-        )->ical . time,
+        )->ical . $uid . time,
     );
 
     $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)}
