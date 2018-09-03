@@ -85,4 +85,6 @@ for my $event (@dates) {
     $calendar->add_entry($vevent);
 }
 
-print $calendar->as_string;
+my $calendar_text = $calendar->as_string;
+$calendar_text =~ s/^$//;
+print $calendar_text;
