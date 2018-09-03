@@ -54,6 +54,18 @@ for my $event (@dates) {
             day   => $3,
             hour  => 10
         )->ical,
+        dtstamp => Date::ICal->new(
+            year  => $1,
+            month => $2,
+            day   => $3,
+            hour  => 10
+        )->ical,
+        uid => Date::ICal->new(
+            year  => $1,
+            month => $2,
+            day   => $3,
+            hour  => 10
+        )->ical . time,
     );
 
     $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)}
