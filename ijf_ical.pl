@@ -39,13 +39,10 @@ for my $year (qw/2018 2019/){
 for my $event (@dates) {
     my $vevent = Data::ICal::Entry::Event->new;
 
-    $event->{date_from} =~ m{(\d+)/(\d+)/(\d+)}
-        or die 'Date did not match';
-
     my $uid = $event->{name};
     $uid =~ s/ //g;
 
-    $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)}
+    $event->{date_from} =~ m{(\d+)/(\d+)/(\d+)}
         or die 'Date did not match';
 
     $vevent->add_properties(
@@ -73,6 +70,9 @@ for my $event (@dates) {
             hour  => 10
         )->ical . $uid . time,
     );
+
+    $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)}
+        or die 'Date did not match';
 
     $vevent->add_properties(
         dtend => Date::ICal->new(
