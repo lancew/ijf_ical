@@ -45,6 +45,9 @@ for my $event (@dates) {
     my $uid = $event->{name};
     $uid =~ s/ //g;
 
+    $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)}
+        or die 'Date did not match';
+
     $vevent->add_properties(
         summary     => $event->{age} . ' ' . $event->{name},
         description => $event->{name} . ' ('
@@ -70,9 +73,6 @@ for my $event (@dates) {
             hour  => 10
         )->ical . $uid . time,
     );
-
-    $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)}
-        or die 'Date did not match';
 
     $vevent->add_properties(
         dtend => Date::ICal->new(
