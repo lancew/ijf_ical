@@ -14,7 +14,7 @@ my @dates;
 my $calendar = Data::ICal->new();
 my $json;
 
-for my $year (qw/2018 2019/) {
+for my $year (qw/2018 2019 2020/) {
     for my $age (qw/SEN JUN CAD/) {
         $json
             = get('http://data.judobase.org/'
