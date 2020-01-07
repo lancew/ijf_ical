@@ -254,11 +254,11 @@ DISTRIBUTIONS
       Mozilla::CA 0
       Net::SSLeay 1.46
       Scalar::Util 0
-  JSON-2.97001
-    pathname: I/IS/ISHIGAKI/JSON-2.97001.tar.gz
+  JSON-4.02
+    pathname: I/IS/ISHIGAKI/JSON-4.02.tar.gz
     provides:
-      JSON 2.97001
-      JSON::Backend::PP 2.97001
+      JSON 4.02
+      JSON::Backend::PP 4.02
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
