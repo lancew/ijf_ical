@@ -8,13 +8,18 @@ use Data::ICal::Entry::Event;
 use Date::ICal;
 use JSON qw( decode_json );
 use LWP::Simple;
+use Geo::Coder::OSM;
 
 our $VERSION = 1.0000;
 my @dates;
 my $calendar = Data::ICal->new();
+my $geocoder = Geo::Coder::OSM->new();
 my $json;
 
-for my $year (qw/2018 2019 2020/) {
+
+$|++;
+
+for my $year (qw/2020/) {
     for my $age (qw/SEN JUN CAD/) {
         $json
             = get('http://data.judobase.org/'
@@ -84,6 +89,19 @@ for my $event (@dates) {
             hour  => 20
         )->ical
     );
+
+    my $geo_location = $geocoder->geocode(
+        location => $event->{city} . ', ' . $event->{country},
+	city => $event->{city},
+	country => $event->{country},
+	limit => 1,
+    );
+    $vevent->add_properties(
+        geo => $geo_location->{lat} . ';' . $geo_location->{lon}
+    ) if $geo_location && $geo_location->{lat};
+	
+
+
     $calendar->add_entry($vevent);
 }
 
