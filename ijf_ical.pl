@@ -16,7 +16,6 @@ my $calendar = Data::ICal->new();
 my $geocoder = Geo::Coder::OSM->new();
 my $json;
 
-
 $|++;
 
 for my $year (qw/2020/) {
@@ -92,15 +91,13 @@ for my $event (@dates) {
 
     my $geo_location = $geocoder->geocode(
         location => $event->{city} . ', ' . $event->{country},
-	city => $event->{city},
-	country => $event->{country},
-	limit => 1,
+        city     => $event->{city},
+        country  => $event->{country},
+        limit    => 1,
     );
     $vevent->add_properties(
-        geo => $geo_location->{lat} . ';' . $geo_location->{lon}
-    ) if $geo_location && $geo_location->{lat};
-	
-
+        geo => $geo_location->{lat} . ';' . $geo_location->{lon} )
+        if $geo_location && $geo_location->{lat};
 
     $calendar->add_entry($vevent);
 }
