@@ -89,6 +89,12 @@ for my $event (@dates) {
         )->ical
     );
 
+    if ($event->{name} =~ / CANCELLED$/) {
+         $vevent->add_properties(
+             status => 'CANCELLED'
+         );
+    }
+
     my $geo_location = $geocoder->geocode(
         location => $event->{city} . ', ' . $event->{country},
         city     => $event->{city},
