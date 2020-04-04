@@ -3,3 +3,4 @@ requires 'JSON';
 requires 'LWP::Simple';
 requires 'LWP::Protocol::https';
 requires 'Geo::Coder::OSM';
+requires 'GIS::Distance';
