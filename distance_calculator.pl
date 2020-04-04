@@ -94,3 +94,10 @@ my $total_distance;
 map { $total_distance += $_->{distance}} @locations;
 
 warn "Total distance: " . int($total_distance);
+
+# 259 g/km pesimistic co2 per km fot flight
+# from https://en.wikipedia.org/wiki/Carbon_footprint#Flight
+
+my $carbon = 259 * $total_distance;
+warn 'Carbon for the tour: ' . int($carbon/1000) . 'kg Co2';
+
