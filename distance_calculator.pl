@@ -1,6 +1,10 @@
+use 5.028;
+
 use strict;
 use warnings;
+use utf8;
 
+binmode STDOUT, ":encoding(UTF-8)";
 
 # This script will take the IJF world tour data and calculate the distances involved
 # and the carbon footprint. Later versions may allow you to set a home location and
@@ -63,10 +67,9 @@ for my $event (@dates) {
         limit    => 1,
     );
 
-    #  warn Dumper $geo_location;
 
     push @locations, {
-    	name => $location->{display_name},
+    	name => $event->{city},
 	lat  => $location->{lat},
 	lon  => $location->{lon}
     };
@@ -77,13 +80,15 @@ my $index = 0;
 for my $event (@locations){
     if ($index == 0) {
 	    $event->{distance} = 0;
+        say '* ' . sprintf("%8d", $event->{distance}) . ' km' . "\t\t" . $event->{name};
 	    $index++;
 	    next;
     }
-    
+
     my $prev = $locations[$index - 1];
     my $distance = $gis->distance( $prev->{lat}, $prev->{lon}, $event->{lat}, $event->{lon} );
-    $event->{distance} = $distance->kilometre;
+    $event->{distance} = int($distance->kilometre);
+    say '* ' . sprintf("%8d", $event->{distance}) . ' km' . "\t\t" . $event->{name};
 
     $index++;
 }
@@ -93,11 +98,11 @@ my $total_distance;
 
 map { $total_distance += $_->{distance}} @locations;
 
-warn "Total distance: " . int($total_distance);
+say "Total distance: " . int($total_distance);
 
 # 259 g/km pesimistic co2 per km fot flight
 # from https://en.wikipedia.org/wiki/Carbon_footprint#Flight
 
 my $carbon = 259 * $total_distance;
-warn 'Carbon for the tour: ' . int($carbon/1000) . 'kg Co2';
+say 'Carbon for the tour: ' . int($carbon/1000) . 'kg Co2';
 
