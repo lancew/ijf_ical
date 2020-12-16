@@ -21,6 +21,8 @@ use JSON qw( decode_json );
 use LWP::Simple;
 use Geo::Coder::OSM;
 use GIS::Distance;
+use Number::Format 'format_number';
+use String::Pad 'pad';
 
 our $VERSION = 1.0000;
 my @dates;
@@ -30,7 +32,8 @@ my $json;
 
 $|++;
 
-for my $year (qw/2019/) {
+for my $year (qw/2020/) {
+    say $year;	
     for my $age (qw/SEN/) {
         $json
             = get('http://data.judobase.org/'
@@ -76,19 +79,25 @@ for my $event (@dates) {
 }
 
 
+my $loc_london = $geocoder->geocode(
+    location => 'London, United Kingdom',
+    limit    => 1
+);
+
+
+
+say 'IJF World Tour Distances and Carbon Footprint (from London)';
+
+
 my $index = 0;
 for my $event (@locations){
-    if ($index == 0) {
-	    $event->{distance} = 0;
-        say '* ' . sprintf("%8d", $event->{distance}) . ' km' . "\t\t" . $event->{name};
-	    $index++;
-	    next;
-    }
 
-    my $prev = $locations[$index - 1];
+    #my $prev = $locations[$index - 1];
+    my $prev = $loc_london;
+
     my $distance = $gis->distance( $prev->{lat}, $prev->{lon}, $event->{lat}, $event->{lon} );
-    $event->{distance} = int($distance->kilometre);
-    say '* ' . sprintf("%8d", $event->{distance}) . ' km' . "\t\t" . $event->{name};
+    $event->{distance} = int($distance->kilometre * 2);
+    say '* ' . pad( format_number( sprintf("%8d", $event->{distance})), 8, 'l') . ' km' . "\t\t" . $event->{name};
 
     $index++;
 }
@@ -98,11 +107,11 @@ my $total_distance;
 
 map { $total_distance += $_->{distance}} @locations;
 
-say "Total distance: " . int($total_distance);
+say "\tTotal distance: \t" . pad(format_number(int($total_distance)), 8,'l') . ' km';
 
 # 259 g/km pesimistic co2 per km fot flight
 # from https://en.wikipedia.org/wiki/Carbon_footprint#Flight
 
 my $carbon = 259 * $total_distance;
-say 'Carbon for the tour: ' . int($carbon/1000) . 'kg Co2';
+say "\tCarbon for the tour: \t" . pad(format_number(int($carbon/1000)), 8, 'l') . ' kg Co2';
 
