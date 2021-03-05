@@ -7,6 +7,9 @@ use Data::ICal;
 use Data::ICal::Entry::Event;
 use Date::ICal;
 use JSON qw( decode_json );
+use LWP::UserAgent;
+my $ua = LWP::UserAgent->new;
+$ua->agent("MyApp/0.1 ");
 use LWP::Simple;
 use Geo::Coder::OSM;
 
@@ -18,16 +21,27 @@ my $json;
 
 $|++;
 
-for my $year (qw/2020 2021/) {
-    for my $age (qw/SEN JUN CAD/) {
-        $json
-            = get('http://data.judobase.org/'
-                . 'api/get_json'
-                . '?params[action]=competition.get_list'
-                . '&params[year]='
-                . $year
-                . '&params[id_age]='
-                . $age );
+for my $year (qw/2021/) {
+    for my $age (qw/SEN/) {
+
+        my $url
+            = 'https://data.ijf.org/'
+            . 'api/get_json'
+            . '?params[action]=competition.get_list'
+            . '&params[year]='
+            . $year
+            . '&params[id_age]='
+            . $age;
+
+        my $req = HTTP::Request->new( GET => $url );
+        my $res = $ua->request($req);
+
+        if ( $res->is_success ) {
+            $json = $res->content;
+        }
+        else {
+            die $res->status_line;
+        }
 
         my $decoded_json = decode_json($json);
 
