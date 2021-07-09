@@ -235,20 +235,20 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       HTTP::Date 6
       perl 5.006002
-  GIS-Distance-0.18
-    pathname: B/BL/BLUEFEET/GIS-Distance-0.18.tar.gz
+  GIS-Distance-0.19
+    pathname: B/BL/BLUEFEET/GIS-Distance-0.19.tar.gz
     provides:
-      GIS::Distance 0.18
-      GIS::Distance::ALT 0.18
-      GIS::Distance::Constants 0.18
-      GIS::Distance::Cosine 0.18
-      GIS::Distance::Formula 0.18
-      GIS::Distance::GreatCircle 0.18
-      GIS::Distance::Haversine 0.18
-      GIS::Distance::MathTrig 0.18
-      GIS::Distance::Null 0.18
-      GIS::Distance::Polar 0.18
-      GIS::Distance::Vincenty 0.18
+      GIS::Distance 0.19
+      GIS::Distance::ALT 0.19
+      GIS::Distance::Constants 0.19
+      GIS::Distance::Cosine 0.19
+      GIS::Distance::Formula 0.19
+      GIS::Distance::GreatCircle 0.19
+      GIS::Distance::Haversine 0.19
+      GIS::Distance::MathTrig 0.19
+      GIS::Distance::Null 0.19
+      GIS::Distance::Polar 0.19
+      GIS::Distance::Vincenty 0.19
     requirements:
       Carp 0
       Class::Measure::Length 0
@@ -404,11 +404,11 @@ DISTRIBUTIONS
       Mozilla::CA 0
       Net::SSLeay 1.46
       Scalar::Util 0
-  JSON-4.02
-    pathname: I/IS/ISHIGAKI/JSON-4.02.tar.gz
+  JSON-4.03
+    pathname: I/IS/ISHIGAKI/JSON-4.03.tar.gz
     provides:
-      JSON 4.02
-      JSON::Backend::PP 4.02
+      JSON 4.03
+      JSON::Backend::PP 4.03
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
@@ -419,18 +419,21 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006002
-  LWP-Protocol-https-6.07
-    pathname: O/OA/OALDERS/LWP-Protocol-https-6.07.tar.gz
+  LWP-Protocol-https-6.10
+    pathname: O/OA/OALDERS/LWP-Protocol-https-6.10.tar.gz
     provides:
-      LWP::Protocol::https 6.07
-      LWP::Protocol::https::Socket 6.07
+      LWP::Protocol::https 6.10
+      LWP::Protocol::https::Socket 6.10
     requirements:
       ExtUtils::MakeMaker 0
       IO::Socket::SSL 1.54
+      LWP::Protocol::http 0
       LWP::UserAgent 6.06
-      Mozilla::CA 20110101
+      Mozilla::CA 20180117
       Net::HTTPS 6
+      base 0
       perl 5.008001
+      strict 0
   Module-Build-0.4224
     pathname: L/LE/LEONT/Module-Build-0.4224.tar.gz
     provides:
