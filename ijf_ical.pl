@@ -87,8 +87,7 @@ for my $event (@dates) {
             day   => $3,
             hour  => 10
             )->ical
-            . $uid
-            . time,
+            . $uid,
     );
 
     $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)}xms
