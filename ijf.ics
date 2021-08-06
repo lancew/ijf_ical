@@ -578,24 +578,24 @@ SUMMARY:JUN Udine Junior European Cup 2021
 UID:20210811T090000ZUdineJuniorEuropeanCup2021
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Pan American Cadet Championshios 2021 (COL) Panamerican Champio
+DESCRIPTION:Pan American Cadet Championships 2021 (COL) Panamerican Champio
  nships [CAD]
 DTEND:20210813T190000Z
 DTSTAMP:20210813T090000Z
 DTSTART:20210813T090000Z
 GEO:3.4517923;-76.5324943
-SUMMARY:CAD Pan American Cadet Championshios 2021
-UID:20210813T090000ZPanAmericanCadetChampionshios2021
+SUMMARY:CAD Pan American Cadet Championships 2021
+UID:20210813T090000ZPanAmericanCadetChampionships2021
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Pan American Junior Championshios 2021 (COL) Panamerican Champi
+DESCRIPTION:Pan American Junior Championships 2021 (COL) Panamerican Champi
  onships [JUN]
 DTEND:20210814T190000Z
 DTSTAMP:20210814T090000Z
 DTSTART:20210814T090000Z
 GEO:3.4517923;-76.5324943
-SUMMARY:JUN Pan American Junior Championshios 2021
-UID:20210814T090000ZPanAmericanJuniorChampionshios2021
+SUMMARY:JUN Pan American Junior Championships 2021
+UID:20210814T090000ZPanAmericanJuniorChampionships2021
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Cadet European Championships (individual) (LAT) European Champi
@@ -606,6 +606,16 @@ DTSTART:20210817T090000Z
 GEO:56.9493977;24.1051846
 SUMMARY:CAD Cadet European Championships (individual)
 UID:20210817T090000ZCadetEuropeanChampionships(individual)
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:International Jigoro Kano Judo Tournament (RUS) Team event [JUN
+ ]
+DTEND:20210904T190000Z
+DTSTAMP:20210904T090000Z
+DTSTART:20210904T090000Z
+GEO:43.1150678;131.8855768
+SUMMARY:JUN International Jigoro Kano Judo Tournament
+UID:20210904T090000ZInternationalJigoroKanoJudoTournament
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:International Jigoro Kano Judo Tournament (RUS) Team event [CAD
