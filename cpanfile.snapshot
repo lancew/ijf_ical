@@ -30,6 +30,32 @@ DISTRIBUTIONS
       perl 5.008001
       strict 0
       warnings 0
+  CPAN-Audit-0.15
+    pathname: V/VT/VTI/CPAN-Audit-0.15.tar.gz
+    provides:
+      CPAN::Audit 0.15
+      CPAN::Audit::DB undef
+      CPAN::Audit::Discover undef
+      CPAN::Audit::Discover::Cpanfile undef
+      CPAN::Audit::Discover::CpanfileSnapshot undef
+      CPAN::Audit::Installed undef
+      CPAN::Audit::Query undef
+      CPAN::Audit::Version undef
+    requirements:
+      CPAN::DistnameInfo 0
+      Module::Build::Tiny 0.035
+      Module::CPANfile 0
+      Module::CoreList 5.20181020
+      Pod::Usage 1.69
+      perl 5.008001
+      version 0
+  CPAN-DistnameInfo-0.12
+    pathname: G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
+    provides:
+      CPAN::DistnameInfo 0.12
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   Class-Accessor-0.51
     pathname: K/KA/KASEI/Class-Accessor-0.51.tar.gz
     provides:
@@ -509,6 +535,19 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Module-CPANfile-1.1004
+    pathname: M/MI/MIYAGAWA/Module-CPANfile-1.1004.tar.gz
+    provides:
+      Module::CPANfile 1.1004
+      Module::CPANfile::Environment undef
+      Module::CPANfile::Prereq undef
+      Module::CPANfile::Prereqs undef
+      Module::CPANfile::Requirement undef
+    requirements:
+      CPAN::Meta 2.12091
+      CPAN::Meta::Prereqs 2.12091
+      ExtUtils::MakeMaker 0
+      parent 0
   Module-Implementation-0.09
     pathname: D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
     provides:
@@ -617,10 +656,10 @@ DISTRIBUTIONS
       Scalar::Util 1.18
       Test::More 0.42
       perl 5.00503
-  String-Pad-0.020
-    pathname: P/PE/PERLANCAR/String-Pad-0.020.tar.gz
+  String-Pad-0.021
+    pathname: P/PE/PERLANCAR/String-Pad-0.021.tar.gz
     provides:
-      String::Pad 0.020
+      String::Pad 0.021
     requirements:
       Exporter 5.57
       ExtUtils::MakeMaker 0
@@ -845,32 +884,32 @@ DISTRIBUTIONS
       XSLoader 0
       lib 0
       perl 5.008001
-  libwww-perl-6.35
-    pathname: E/ET/ETHER/libwww-perl-6.35.tar.gz
+  libwww-perl-6.56
+    pathname: O/OA/OALDERS/libwww-perl-6.56.tar.gz
     provides:
-      LWP 6.35
-      LWP::Authen::Basic 6.35
-      LWP::Authen::Digest 6.35
-      LWP::Authen::Ntlm 6.35
-      LWP::ConnCache 6.35
-      LWP::Debug 6.35
-      LWP::Debug::TraceHTTP 6.35
-      LWP::DebugFile 6.35
-      LWP::MemberMixin 6.35
-      LWP::Protocol 6.35
-      LWP::Protocol::cpan 6.35
-      LWP::Protocol::data 6.35
-      LWP::Protocol::file 6.35
-      LWP::Protocol::ftp 6.35
-      LWP::Protocol::gopher 6.35
-      LWP::Protocol::http 6.35
-      LWP::Protocol::loopback 6.35
-      LWP::Protocol::mailto 6.35
-      LWP::Protocol::nntp 6.35
-      LWP::Protocol::nogo 6.35
-      LWP::RobotUA 6.35
-      LWP::Simple 6.35
-      LWP::UserAgent 6.35
+      LWP 6.56
+      LWP::Authen::Basic 6.56
+      LWP::Authen::Digest 6.56
+      LWP::Authen::Ntlm 6.56
+      LWP::ConnCache 6.56
+      LWP::Debug 6.56
+      LWP::Debug::TraceHTTP 6.56
+      LWP::DebugFile 6.56
+      LWP::MemberMixin 6.56
+      LWP::Protocol 6.56
+      LWP::Protocol::cpan 6.56
+      LWP::Protocol::data 6.56
+      LWP::Protocol::file 6.56
+      LWP::Protocol::ftp 6.56
+      LWP::Protocol::gopher 6.56
+      LWP::Protocol::http 6.56
+      LWP::Protocol::loopback 6.56
+      LWP::Protocol::mailto 6.56
+      LWP::Protocol::nntp 6.56
+      LWP::Protocol::nogo 6.56
+      LWP::RobotUA 6.56
+      LWP::Simple 6.56
+      LWP::UserAgent 6.56
       libwww::perl undef
     requirements:
       CPAN::Meta::Requirements 2.120620
@@ -884,20 +923,19 @@ DISTRIBUTIONS
       HTML::Entities 0
       HTML::HeadParser 0
       HTTP::Cookies 6
-      HTTP::Daemon 6
       HTTP::Date 6
       HTTP::Negotiate 6
       HTTP::Request 6
       HTTP::Request::Common 6
       HTTP::Response 6
-      HTTP::Status 6
+      HTTP::Status 6.18
       IO::Select 0
       IO::Socket 0
       LWP::MediaTypes 6
       MIME::Base64 2.1
       Module::Metadata 0
       Net::FTP 2.58
-      Net::HTTP 6.07
+      Net::HTTP 6.18
       Scalar::Util 0
       Try::Tiny 0
       URI 1.10
