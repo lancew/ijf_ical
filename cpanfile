@@ -1,6 +1,6 @@
 requires 'Data::ICal', '== 0.24';
 requires 'JSON', '== 4.03';
-requires 'LWP::Simple', '== 6.57';
+requires 'LWP::Simple', '== 6.58';
 requires 'LWP::Protocol::https', '== 6.10';
 requires 'Geo::Coder::OSM', '== 0.03';
 requires 'GIS::Distance', '== 0.19';

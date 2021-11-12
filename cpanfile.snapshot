@@ -30,32 +30,6 @@ DISTRIBUTIONS
       perl 5.008001
       strict 0
       warnings 0
-  CPAN-Audit-0.15
-    pathname: V/VT/VTI/CPAN-Audit-0.15.tar.gz
-    provides:
-      CPAN::Audit 0.15
-      CPAN::Audit::DB undef
-      CPAN::Audit::Discover undef
-      CPAN::Audit::Discover::Cpanfile undef
-      CPAN::Audit::Discover::CpanfileSnapshot undef
-      CPAN::Audit::Installed undef
-      CPAN::Audit::Query undef
-      CPAN::Audit::Version undef
-    requirements:
-      CPAN::DistnameInfo 0
-      Module::Build::Tiny 0.035
-      Module::CPANfile 0
-      Module::CoreList 5.20181020
-      Pod::Usage 1.69
-      perl 5.008001
-      version 0
-  CPAN-DistnameInfo-0.12
-    pathname: G/GB/GBARR/CPAN-DistnameInfo-0.12.tar.gz
-    provides:
-      CPAN::DistnameInfo 0.12
-    requirements:
-      ExtUtils::MakeMaker 0
-      Test::More 0
   Class-Accessor-0.51
     pathname: K/KA/KASEI/Class-Accessor-0.51.tar.gz
     provides:
@@ -335,21 +309,6 @@ DISTRIBUTIONS
       perl 5.008001
       strict 0
       vars 0
-  HTTP-Daemon-6.01
-    pathname: G/GA/GAAS/HTTP-Daemon-6.01.tar.gz
-    provides:
-      HTTP::Daemon 6.01
-      HTTP::Daemon::ClientConn 6.01
-    requirements:
-      ExtUtils::MakeMaker 0
-      HTTP::Date 6
-      HTTP::Request 6
-      HTTP::Response 6
-      HTTP::Status 6
-      IO::Socket 0
-      LWP::MediaTypes 6
-      Sys::Hostname 0
-      perl 5.008001
   HTTP-Date-6.02
     pathname: G/GA/GAAS/HTTP-Date-6.02.tar.gz
     provides:
@@ -535,19 +494,6 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  Module-CPANfile-1.1004
-    pathname: M/MI/MIYAGAWA/Module-CPANfile-1.1004.tar.gz
-    provides:
-      Module::CPANfile 1.1004
-      Module::CPANfile::Environment undef
-      Module::CPANfile::Prereq undef
-      Module::CPANfile::Prereqs undef
-      Module::CPANfile::Requirement undef
-    requirements:
-      CPAN::Meta 2.12091
-      CPAN::Meta::Prereqs 2.12091
-      ExtUtils::MakeMaker 0
-      parent 0
   Module-Implementation-0.09
     pathname: D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
     provides:
@@ -655,7 +601,7 @@ DISTRIBUTIONS
       File::Spec 0.80
       Scalar::Util 1.18
       Test::More 0.42
-      perl 5.00503
+      perl 5.005030
   String-Pad-0.021
     pathname: P/PE/PERLANCAR/String-Pad-0.021.tar.gz
     provides:
@@ -884,32 +830,32 @@ DISTRIBUTIONS
       XSLoader 0
       lib 0
       perl 5.008001
-  libwww-perl-6.57
-    pathname: O/OA/OALDERS/libwww-perl-6.57.tar.gz
+  libwww-perl-6.58
+    pathname: O/OA/OALDERS/libwww-perl-6.58.tar.gz
     provides:
-      LWP 6.57
-      LWP::Authen::Basic 6.57
-      LWP::Authen::Digest 6.57
-      LWP::Authen::Ntlm 6.57
-      LWP::ConnCache 6.57
-      LWP::Debug 6.57
-      LWP::Debug::TraceHTTP 6.57
-      LWP::DebugFile 6.57
-      LWP::MemberMixin 6.57
-      LWP::Protocol 6.57
-      LWP::Protocol::cpan 6.57
-      LWP::Protocol::data 6.57
-      LWP::Protocol::file 6.57
-      LWP::Protocol::ftp 6.57
-      LWP::Protocol::gopher 6.57
-      LWP::Protocol::http 6.57
-      LWP::Protocol::loopback 6.57
-      LWP::Protocol::mailto 6.57
-      LWP::Protocol::nntp 6.57
-      LWP::Protocol::nogo 6.57
-      LWP::RobotUA 6.57
-      LWP::Simple 6.57
-      LWP::UserAgent 6.57
+      LWP 6.58
+      LWP::Authen::Basic 6.58
+      LWP::Authen::Digest 6.58
+      LWP::Authen::Ntlm 6.58
+      LWP::ConnCache 6.58
+      LWP::Debug 6.58
+      LWP::Debug::TraceHTTP 6.58
+      LWP::DebugFile 6.58
+      LWP::MemberMixin 6.58
+      LWP::Protocol 6.58
+      LWP::Protocol::cpan 6.58
+      LWP::Protocol::data 6.58
+      LWP::Protocol::file 6.58
+      LWP::Protocol::ftp 6.58
+      LWP::Protocol::gopher 6.58
+      LWP::Protocol::http 6.58
+      LWP::Protocol::loopback 6.58
+      LWP::Protocol::mailto 6.58
+      LWP::Protocol::nntp 6.58
+      LWP::Protocol::nogo 6.58
+      LWP::RobotUA 6.58
+      LWP::Simple 6.58
+      LWP::UserAgent 6.58
       libwww::perl undef
     requirements:
       CPAN::Meta::Requirements 2.120620
@@ -941,7 +887,7 @@ DISTRIBUTIONS
       URI 1.10
       URI::Escape 0
       WWW::RobotRules 6
-      base 0
+      parent 0.217
       perl 5.008001
       strict 0
       warnings 0
