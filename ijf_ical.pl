@@ -21,7 +21,7 @@ my $json;
 
 $|++;
 
-for my $year (qw/2020 2021 2022/) {
+for my $year (qw/2021 2022/) {
     for my $age (qw/SEN JUN CAD/) {
 
         my $url
