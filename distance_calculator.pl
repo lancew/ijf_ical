@@ -18,11 +18,15 @@ binmode STDOUT, ":encoding(UTF-8)";
 
 use Carp 'croak';
 use JSON qw( decode_json );
-use LWP::Simple;
 use Geo::Coder::OSM;
 use GIS::Distance;
 use Number::Format 'format_number';
 use String::Pad 'pad';
+
+use LWP::UserAgent;
+my $ua = LWP::UserAgent->new;
+$ua->agent("MyApp/0.1 ");
+use LWP::Simple;
 
 our $VERSION = 1.0000;
 my @dates;
@@ -32,17 +36,26 @@ my $json;
 
 $|++;
 
-for my $year (qw/2020/) {
-    say $year;	
+for my $year (qw/2022/) {
     for my $age (qw/SEN/) {
-        $json
-            = get('http://data.judobase.org/'
+        my $url
+            = 'https://data.ijf.org/'
                 . 'api/get_json'
                 . '?params[action]=competition.get_list'
                 . '&params[year]='
                 . $year
                 . '&params[id_age]='
-                . $age );
+                . $age;
+
+        my $req = HTTP::Request->new( GET => $url );
+        my $res = $ua->request($req);
+
+        if ( $res->is_success ) {
+            $json = $res->content;
+        }
+        else {
+            die $res->status_line;
+        }
 
         my $decoded_json = decode_json($json);
 
@@ -72,28 +85,26 @@ for my $event (@dates) {
 
 
     push @locations, {
-    	name => $event->{city},
+    	name => "$event->{city}, $event->{country}",
 	lat  => $location->{lat},
 	lon  => $location->{lon}
     };
 }
 
 
-my $loc_london = $geocoder->geocode(
+my $loc_base = $geocoder->geocode(
     location => 'London, United Kingdom',
     limit    => 1
 );
 
-
-
-say 'IJF World Tour Distances and Carbon Footprint (from London)';
+say 'IJF World Tour Distances and Carbon Footprint (from '. $loc_base->{address}->{city} .')';
 
 
 my $index = 0;
 for my $event (@locations){
 
     #my $prev = $locations[$index - 1];
-    my $prev = $loc_london;
+    my $prev = $loc_base;
 
     my $distance = $gis->distance( $prev->{lat}, $prev->{lon}, $event->{lat}, $event->{lon} );
     $event->{distance} = int($distance->kilometre * 2);

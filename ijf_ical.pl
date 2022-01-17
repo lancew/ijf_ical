@@ -23,15 +23,14 @@ $|++;
 
 for my $year (qw/2021 2022/) {
     for my $age (qw/SEN JUN CAD/) {
-
         my $url
             = 'https://data.ijf.org/'
-            . 'api/get_json'
-            . '?params[action]=competition.get_list'
-            . '&params[year]='
-            . $year
-            . '&params[id_age]='
-            . $age;
+                . 'api/get_json'
+                . '?params[action]=competition.get_list'
+                . '&params[year]='
+                . $year
+                . '&params[id_age]='
+                . $age;
 
         my $req = HTTP::Request->new( GET => $url );
         my $res = $ua->request($req);
