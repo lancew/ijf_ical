@@ -389,11 +389,11 @@ DISTRIBUTIONS
       Mozilla::CA 0
       Net::SSLeay 1.46
       Scalar::Util 0
-  JSON-4.03
-    pathname: I/IS/ISHIGAKI/JSON-4.03.tar.gz
+  JSON-4.05
+    pathname: I/IS/ISHIGAKI/JSON-4.05.tar.gz
     provides:
-      JSON 4.03
-      JSON::Backend::PP 4.03
+      JSON 4.05
+      JSON::Backend::PP 4.05
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
