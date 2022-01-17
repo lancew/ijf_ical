@@ -31,7 +31,7 @@ use LWP::Simple;
 our $VERSION = 1.0000;
 my @dates;
 my $geocoder = Geo::Coder::OSM->new();
-my $gis = GIS::Distance->new();
+my $gis      = GIS::Distance->new();
 my $json;
 
 $|++;
@@ -40,12 +40,12 @@ for my $year (qw/2022/) {
     for my $age (qw/SEN/) {
         my $url
             = 'https://data.ijf.org/'
-                . 'api/get_json'
-                . '?params[action]=competition.get_list'
-                . '&params[year]='
-                . $year
-                . '&params[id_age]='
-                . $age;
+            . 'api/get_json'
+            . '?params[action]=competition.get_list'
+            . '&params[year]='
+            . $year
+            . '&params[id_age]='
+            . $age;
 
         my $req = HTTP::Request->new( GET => $url );
         my $res = $ua->request($req);
@@ -74,6 +74,9 @@ my @locations;
 
 for my $event (@dates) {
     next unless $event->{prime_event};
+    next if $event->{name} =~ /Mixed teams/i;
+    next if $event->{name} =~ /Veterans/i;
+    next if $event->{name} =~ /\bkata\b/i;
     #    warn Dumper $event;
 
     my $location = $geocoder->geocode(
@@ -83,46 +86,52 @@ for my $event (@dates) {
         limit    => 1,
     );
 
-
-    push @locations, {
-    	name => "$event->{city}, $event->{country}",
-	lat  => $location->{lat},
-	lon  => $location->{lon}
-    };
+    push @locations,
+        {
+        name => $event->{name},
+        city => "$event->{city}, $event->{country}",
+        lat  => $location->{lat},
+        lon  => $location->{lon}
+        };
 }
-
 
 my $loc_base = $geocoder->geocode(
     location => 'London, United Kingdom',
     limit    => 1
 );
 
-say 'IJF World Tour Distances and Carbon Footprint (from '. $loc_base->{address}->{city} .')';
-
+say 'IJF World Tour Distances and Carbon Footprint (from '
+    . $loc_base->{address}->{city} . ')';
 
 my $index = 0;
-for my $event (@locations){
+for my $event (@locations) {
 
     #my $prev = $locations[$index - 1];
     my $prev = $loc_base;
 
-    my $distance = $gis->distance( $prev->{lat}, $prev->{lon}, $event->{lat}, $event->{lon} );
-    $event->{distance} = int($distance->kilometre * 2);
-    say '* ' . pad( format_number( sprintf("%8d", $event->{distance})), 8, 'l') . ' km' . "\t\t" . $event->{name};
+    my $distance = $gis->distance( $prev->{lat}, $prev->{lon}, $event->{lat},
+        $event->{lon} );
+    $event->{distance} = int( $distance->kilometre * 2 );
+    say '* '
+        . pad( format_number( sprintf( "%8d", $event->{distance} ) ), 8, 'l' )
+        . ' km' . "\t\t"
+        . $event->{name};
 
     $index++;
 }
 
-
 my $total_distance;
 
-map { $total_distance += $_->{distance}} @locations;
+map { $total_distance += $_->{distance} } @locations;
 
-say "\tTotal distance: \t" . pad(format_number(int($total_distance)), 8,'l') . ' km';
+say "\tTotal distance: \t"
+    . pad( format_number( int($total_distance) ), 8, 'l' ) . ' km';
 
 # 259 g/km pesimistic co2 per km fot flight
 # from https://en.wikipedia.org/wiki/Carbon_footprint#Flight
 
 my $carbon = 259 * $total_distance;
-say "\tCarbon for the tour: \t" . pad(format_number(int($carbon/1000)), 8, 'l') . ' kg Co2';
+say "\tCarbon for the tour: \t"
+    . pad( format_number( int( $carbon / 1000 ) ), 8, 'l' )
+    . ' kg Co2';
 
