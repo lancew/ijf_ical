@@ -1,3 +1,9 @@
+# CVEs detected via cpan-audit, so force load
+# newer versions.
+requires 'File::Temp', '== 0.2311';
+requires 'Compress::Raw::Zlib', '== 2.105';
+
+# Dependencies of this code
 requires 'Data::ICal', '== 0.24';
 requires 'JSON', '== 4.06';
 requires 'LWP::Simple', '== 6.67';
