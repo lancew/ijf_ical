@@ -65,6 +65,12 @@ DISTRIBUTIONS
       Devel::StackTrace 0
       ExtUtils::MakeMaker 0
       Test::More 0
+  Compress-Raw-Zlib-2.105
+    pathname: P/PM/PMQS/Compress-Raw-Zlib-2.105.tar.gz
+    provides:
+      Compress::Raw::Zlib 2.105
+    requirements:
+      ExtUtils::MakeMaker 0
   Const-Fast-0.014
     pathname: L/LE/LEONT/Const-Fast-0.014.tar.gz
     provides:
