@@ -6,7 +6,7 @@ use Carp 'croak';
 use Data::ICal;
 use Data::ICal::Entry::Event;
 use Date::ICal;
-use JSON qw( decode_json );
+use JSON::MaybeXS 'decode_json';
 use LWP::UserAgent;
 my $ua = LWP::UserAgent->new;
 $ua->agent("MyApp/0.1 ");

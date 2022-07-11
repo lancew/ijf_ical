@@ -1,11 +1,11 @@
 # CVEs detected via cpan-audit, so force load
 # newer versions.
 requires 'File::Temp', '== 0.2311';
-requires 'Compress::Raw::Zlib', '== 2.105';
+requires 'Compress::Raw::Zlib', '== 2.202';
 
 # Dependencies of this code
 requires 'Data::ICal', '== 0.24';
-requires 'JSON', '== 4.06';
+requires 'JSON::MaybeXS', '== 1.004003';
 requires 'LWP::Simple', '== 6.67';
 requires 'LWP::Protocol::https', '== 6.10';
 requires 'Geo::Coder::OSM', '== 0.03';

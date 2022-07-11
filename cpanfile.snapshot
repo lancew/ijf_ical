@@ -65,10 +65,10 @@ DISTRIBUTIONS
       Devel::StackTrace 0
       ExtUtils::MakeMaker 0
       Test::More 0
-  Compress-Raw-Zlib-2.105
-    pathname: P/PM/PMQS/Compress-Raw-Zlib-2.105.tar.gz
+  Compress-Raw-Zlib-2.202
+    pathname: P/PM/PMQS/Compress-Raw-Zlib-2.202.tar.gz
     provides:
-      Compress::Raw::Zlib 2.105
+      Compress::Raw::Zlib 2.202
     requirements:
       ExtUtils::MakeMaker 0
   Const-Fast-0.014
@@ -82,6 +82,22 @@ DISTRIBUTIONS
       Storable 0
       Sub::Exporter::Progressive 0.001007
       perl 5.008
+      strict 0
+      warnings 0
+  Cpanel-JSON-XS-4.30
+    pathname: R/RU/RURBAN/Cpanel-JSON-XS-4.30.tar.gz
+    provides:
+      Cpanel::JSON::XS 4.30
+      Cpanel::JSON::XS::Type undef
+    requirements:
+      Carp 0
+      Config 0
+      Encode 1.9801
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Pod::Text 2.08
+      XSLoader 0
+      overload 0
       strict 0
       warnings 0
   Data-ICal-0.24
@@ -395,14 +411,25 @@ DISTRIBUTIONS
       Mozilla::CA 0
       Net::SSLeay 1.46
       Scalar::Util 0
-  JSON-4.06
-    pathname: I/IS/ISHIGAKI/JSON-4.06.tar.gz
+  JSON-4.07
+    pathname: I/IS/ISHIGAKI/JSON-4.07.tar.gz
     provides:
-      JSON 4.06
-      JSON::Backend::PP 4.06
+      JSON 4.07
+      JSON::Backend::PP 4.07
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  JSON-MaybeXS-1.004003
+    pathname: E/ET/ETHER/JSON-MaybeXS-1.004003.tar.gz
+    provides:
+      JSON::MaybeXS 1.004003
+    requirements:
+      Carp 0
+      Cpanel::JSON::XS 2.3310
+      ExtUtils::MakeMaker 0
+      JSON::PP 2.27300
+      Scalar::Util 0
+      perl 5.006
   LWP-MediaTypes-6.02
     pathname: G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
     provides:
