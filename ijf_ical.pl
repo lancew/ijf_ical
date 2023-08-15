@@ -65,9 +65,10 @@ for my $event (@dates) {
     $vevent->add_properties(
         summary     => "$event->{age} $event->{name}",
         description => $event->{name} . ' ('
-            . $event->{country_short} . ') '
-            . $event->{rank_name} . ' ['
-            . $event->{age} . ']',
+            . ($event->{country_short} || '') . ') '
+            . ($event->{rank_name} || '') . ' ['
+            . ($event->{age} || '') . ']'
+            ,
         dtstart => Date::ICal->new(
             year  => $1,
             month => $2,
