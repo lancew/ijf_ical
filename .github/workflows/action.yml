@@ -1,4 +1,4 @@
-run-name: Build PlanetJudo 🚀
+run-name: Build IJF calendar 🚀
 on:
   push:
     branches:
