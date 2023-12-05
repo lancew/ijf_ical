@@ -16,5 +16,5 @@ jobs:
         with:
           perl-version: '5.34'
       - run: cpanm --notest --installdeps .
-      - run: perl ijf_ical.pl > ijf.ics
+      - run: perl ijf_ical.pl > ./ijf.ics
       - uses: stefanzweifel/git-auto-commit-action@v5
