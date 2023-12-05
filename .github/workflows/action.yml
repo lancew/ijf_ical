@@ -6,15 +6,15 @@ on:
   schedule:
     - cron: '0 0 * * *'
 jobs:
-  Build-planetjudo:
+  Build-ijf-ical:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - uses: shogo82149/actions-setup-perl@v1
+      - uses: shogo82148/actions-setup-perl@v1.25.0
         with:
-          perl-version: '6.34'
+          perl-version: '5.34'
       - run: cpanm --notest --installdeps .
       - run: perl ijf_ical.pl > ijf.ics
       - uses: stefanzweifel/git-auto-commit-action@v5
