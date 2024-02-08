@@ -1824,12 +1824,12 @@ SUMMARY:SEN Pordenone European Kata Tournament 2024
 UID:20240323T100000ZPordenoneEuropeanKataTournament2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Coimbra Junior European Cup 2024 (POR) Continental Cup [JUN]
+DESCRIPTION:Anadia Junior European Cup 2024 (POR) Continental Cup [JUN]
 DTEND:20240324T200000Z
 DTSTAMP:20240323T100000Z
 DTSTART:20240323T100000Z
-SUMMARY:JUN Coimbra Junior European Cup 2024
-UID:20240323T100000ZCoimbraJuniorEuropeanCup2024
+SUMMARY:JUN Anadia Junior European Cup 2024
+UID:20240323T100000ZAnadiaJuniorEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Pordenone European Kata Tournament 2024 (ITA) Kata Tournament [
