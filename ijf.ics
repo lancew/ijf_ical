@@ -1701,12 +1701,12 @@ SUMMARY:SEN Louvain-la-Neuve European Kata Tournament 2024
 UID:20240224T100000ZLouvain-la-NeuveEuropeanKataTournament2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Riga Veterans European Cup 2024 (LAT) Veteran Tournament [SEN]
+DESCRIPTION:Riga Veteran European Cup 2024 (LAT) Veteran Tournament [SEN]
 DTEND:20240225T200000Z
 DTSTAMP:20240224T100000Z
 DTSTART:20240224T100000Z
-SUMMARY:SEN Riga Veterans European Cup 2024
-UID:20240224T100000ZRigaVeteransEuropeanCup2024
+SUMMARY:SEN Riga Veteran European Cup 2024
+UID:20240224T100000ZRigaVeteranEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Louvain-la-Neuve European Kata Tournament 2024 (BEL) Kata Tourn
