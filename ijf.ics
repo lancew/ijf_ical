@@ -1914,12 +1914,12 @@ SUMMARY:SEN Dubrovnik Senior European Cup 2024
 UID:20240406T100000ZDubrovnikSeniorEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Gyor Veterans European Cup 2024 (HUN) Veteran Tournament [SEN]
+DESCRIPTION:Gyor Veteran European Cup 2024 (HUN) Veteran Tournament [SEN]
 DTEND:20240407T200000Z
 DTSTAMP:20240406T100000Z
 DTSTART:20240406T100000Z
-SUMMARY:SEN Gyor Veterans European Cup 2024
-UID:20240406T100000ZGyorVeteransEuropeanCup2024
+SUMMARY:SEN Gyor Veteran European Cup 2024
+UID:20240406T100000ZGyorVeteranEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Teplice Cadet European Cup 2024 (CZE) Continental Cup [CAD]
@@ -2020,13 +2020,12 @@ SUMMARY:SEN Asian Championships Individuals 2023
 UID:20240420T100000ZAsianChampionshipsIndividuals2023
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Warsaw Veterans European Cup 2024 (POL) Veteran Tournament [SEN
- ]
+DESCRIPTION:Warsaw Veteran European Cup 2024 (POL) Veteran Tournament [SEN]
 DTEND:20240421T200000Z
 DTSTAMP:20240420T100000Z
 DTSTART:20240420T100000Z
-SUMMARY:SEN Warsaw Veterans European Cup 2024
-UID:20240420T100000ZWarsawVeteransEuropeanCup2024
+SUMMARY:SEN Warsaw Veteran European Cup 2024
+UID:20240420T100000ZWarsawVeteranEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Gyor European Kata Tournament 2024 (HUN) Kata Tournament [SEN]
@@ -2187,13 +2186,13 @@ SUMMARY:SEN Qazaqstan Barysy Grand Slam 2024
 UID:20240510T100000ZQazaqstanBarysyGrandSlam2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Tbilisi Veterans European Cup 2024 (GEO) Veteran Tournament [SE
- N]
+DESCRIPTION:Tbilisi Veteran European Cup 2024 (GEO) Veteran Tournament [SEN
+ ]
 DTEND:20240512T200000Z
 DTSTAMP:20240511T100000Z
 DTSTART:20240511T100000Z
-SUMMARY:SEN Tbilisi Veterans European Cup 2024
-UID:20240511T100000ZTbilisiVeteransEuropeanCup2024
+SUMMARY:SEN Tbilisi Veteran European Cup 2024
+UID:20240511T100000ZTbilisiVeteranEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Radom European Kata Tournament 2024 (POL) Kata Tournament [SEN]
@@ -2716,13 +2715,13 @@ SUMMARY:SEN Podgorica Senior European Cup 2024
 UID:20240921T100000ZPodgoricaSeniorEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Hamburg Veterans European Cup 2024 (GER) Veteran Tournament [SE
- N]
+DESCRIPTION:Hamburg Veteran European Cup 2024 (GER) Veteran Tournament [SEN
+ ]
 DTEND:20240922T200000Z
 DTSTAMP:20240921T100000Z
 DTSTART:20240921T100000Z
-SUMMARY:SEN Hamburg Veterans European Cup 2024
-UID:20240921T100000ZHamburgVeteransEuropeanCup2024
+SUMMARY:SEN Hamburg Veteran European Cup 2024
+UID:20240921T100000ZHamburgVeteranEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ashgabat World Championships Cadets Individuals 2024 (TKM) Worl
@@ -2742,13 +2741,13 @@ SUMMARY:SEN Prague European Open 2024
 UID:20240928T100000ZPragueEuropeanOpen2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Birmingham Veterans European Cup 2024 (GBR) Veteran Tournament 
- [SEN]
+DESCRIPTION:Birmingham Veteran European Cup 2024 (GBR) Veteran Tournament [
+ SEN]
 DTEND:20240929T200000Z
 DTSTAMP:20240928T100000Z
 DTSTART:20240928T100000Z
-SUMMARY:SEN Birmingham Veterans European Cup 2024
-UID:20240928T100000ZBirminghamVeteransEuropeanCup2024
+SUMMARY:SEN Birmingham Veteran European Cup 2024
+UID:20240928T100000ZBirminghamVeteranEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Samorin EJU OTC 2024 (SVK) Other events [SEN]
@@ -2868,12 +2867,12 @@ SUMMARY:SEN Sarajevo European Open 2024
 UID:20241026T100000ZSarajevoEuropeanOpen2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Jelca Veterans European Cup 2024 (CRO) Veteran Tournament [SEN]
+DESCRIPTION:Jelca Veteran European Cup 2024 (CRO) Veteran Tournament [SEN]
 DTEND:20241027T200000Z
 DTSTAMP:20241026T100000Z
 DTSTART:20241026T100000Z
-SUMMARY:SEN Jelca Veterans European Cup 2024
-UID:20241026T100000ZJelcaVeteransEuropeanCup2024
+SUMMARY:SEN Jelca Veteran European Cup 2024
+UID:20241026T100000ZJelcaVeteranEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Koper Cadet European Cup 2024 (SLO) Continental Cup [CAD]
