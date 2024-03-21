@@ -2028,12 +2028,13 @@ SUMMARY:JUN Lignano Junior European Cup 2024
 UID:20240420T100000ZLignanoJuniorEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Panamerican - Oceania Junior Championships 2024 (BRA)  [JUN]
+DESCRIPTION:Panamerican - Oceania Junior Championships Individuals 2024 (BR
+ A)  [JUN]
 DTEND:20240423T200000Z
 DTSTAMP:20240423T100000Z
 DTSTART:20240423T100000Z
-SUMMARY:JUN Panamerican - Oceania Junior Championships 2024
-UID:20240423T100000ZPanamerican-OceaniaJuniorChampionships2024
+SUMMARY:JUN Panamerican - Oceania Junior Championships Individuals 2024
+UID:20240423T100000ZPanamerican-OceaniaJuniorChampionshipsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:African Kata Championships Individuals 2024 (EGY) Kata Tourname
