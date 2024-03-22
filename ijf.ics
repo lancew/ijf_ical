@@ -2028,6 +2028,15 @@ SUMMARY:JUN Lignano Junior European Cup 2024
 UID:20240420T100000ZLignanoJuniorEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Panamerican Oceania Championships Cadets Rio 2024 Individuals (
+ BRA)  [CAD]
+DTEND:20240422T200000Z
+DTSTAMP:20240422T100000Z
+DTSTART:20240422T100000Z
+SUMMARY:CAD Panamerican Oceania Championships Cadets Rio 2024 Individuals
+UID:20240422T100000ZPanamericanOceaniaChampionshipsCadetsRio2024Individuals
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Panamerican - Oceania Junior Championships Individuals 2024 (BR
  A)  [JUN]
 DTEND:20240423T200000Z
@@ -2221,6 +2230,15 @@ SUMMARY:CAD Bielsko Biala Cadet European Cup 2024
 UID:20240518T100000ZBielskoBialaCadetEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Abu Dhabi World Championships Seniors 2024 Individuals (UAE) Wo
+ rld Championships [SEN]
+DTEND:20240523T200000Z
+DTSTAMP:20240519T100000Z
+DTSTART:20240519T100000Z
+SUMMARY:SEN Abu Dhabi World Championships Seniors 2024 Individuals
+UID:20240519T100000ZAbuDhabiWorldChampionshipsSeniors2024Individuals
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Ashgabat Cadets Asian Cup 2024 (TKM) Continental Cup [CAD]
 DTEND:20240521T200000Z
 DTSTAMP:20240520T100000Z
@@ -2410,6 +2428,15 @@ SUMMARY:JUN Lima Junior Panamerican Cup 2024
 UID:20240624T100000ZLimaJuniorPanamericanCup2024
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:European Judo Championships Cadets Sofia 2024 Individuals (BUL)
+  European Championships [CAD]
+DTEND:20240630T200000Z
+DTSTAMP:20240627T100000Z
+DTSTART:20240627T100000Z
+SUMMARY:CAD European Judo Championships Cadets Sofia 2024 Individuals
+UID:20240627T100000ZEuropeanJudoChampionshipsCadetsSofia2024Individuals
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Slovenj Gradec Junior European Cup 2024 (SLO) Continental Cup [
  JUN]
 DTEND:20240630T200000Z
@@ -2473,6 +2500,15 @@ DTSTAMP:20240718T100000Z
 DTSTART:20240718T100000Z
 SUMMARY:SEN Taipei Asian Open 2024
 UID:20240718T100000ZTaipeiAsianOpen2024
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:African Cadet Championships Individuals 2024 (CMR) African Cham
+ pionships [CAD]
+DTEND:20240718T200000Z
+DTSTAMP:20240718T100000Z
+DTSTART:20240718T100000Z
+SUMMARY:CAD African Cadet Championships Individuals 2024
+UID:20240718T100000ZAfricanCadetChampionshipsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:African Junior Championships Individuals 2024 (CMR) African Cha
