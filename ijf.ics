@@ -2073,13 +2073,13 @@ SUMMARY:CAD African Kata Championships Individuals 2024
 UID:20240424T100000ZAfricanKataChampionshipsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:European Senior Championships Individuals 2024 (CRO) European C
- hampionships [SEN]
+DESCRIPTION:European Judo Championships Seniors Individuals 2024 (CRO) Euro
+ pean Championships [SEN]
 DTEND:20240427T200000Z
 DTSTAMP:20240425T100000Z
 DTSTART:20240425T100000Z
-SUMMARY:SEN European Senior Championships Individuals 2024
-UID:20240425T100000ZEuropeanSeniorChampionshipsIndividuals2024
+SUMMARY:SEN European Judo Championships Seniors Individuals 2024
+UID:20240425T100000ZEuropeanJudoChampionshipsSeniorsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:African Senior Championships Individuals 2024 (EGY) African Cha
