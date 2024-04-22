@@ -2028,22 +2028,23 @@ SUMMARY:JUN Lignano Junior European Cup 2024
 UID:20240420T100000ZLignanoJuniorEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Panamerican Oceania Championships Cadets Rio 2024 Individuals (
+DESCRIPTION:Panamerican and Oceania Championships Cadets Individuals 2024 (
  BRA)  [CAD]
 DTEND:20240422T200000Z
 DTSTAMP:20240422T100000Z
 DTSTART:20240422T100000Z
-SUMMARY:CAD Panamerican Oceania Championships Cadets Rio 2024 Individuals
-UID:20240422T100000ZPanamericanOceaniaChampionshipsCadetsRio2024Individuals
+SUMMARY:CAD Panamerican and Oceania Championships Cadets Individuals 2024
+UID:20240422T100000ZPanamericanandOceaniaChampionshipsCadetsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Panamerican - Oceania Junior Championships Individuals 2024 (BR
- A)  [JUN]
+DESCRIPTION:Panamerican and Oceania Championships Juniors Individuals 2024 
+ (BRA)  [JUN]
 DTEND:20240423T200000Z
 DTSTAMP:20240423T100000Z
 DTSTART:20240423T100000Z
-SUMMARY:JUN Panamerican - Oceania Junior Championships Individuals 2024
-UID:20240423T100000ZPanamerican-OceaniaJuniorChampionshipsIndividuals2024
+SUMMARY:JUN Panamerican and Oceania Championships Juniors Individuals 2024
+UID:20240423T100000ZPanamericanandOceaniaChampionshipsJuniorsIndividuals202
+ 4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:African Kata Championships Individuals 2024 (EGY) Kata Tourname
@@ -2091,13 +2092,14 @@ SUMMARY:SEN African Senior Championships Individuals 2024
 UID:20240425T100000ZAfricanSeniorChampionshipsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Panamerican/Oceania Senior Championships Individuals 2024 (BRA)
-   [SEN]
+DESCRIPTION:Panamerican and Oceania Championships Seniors Individuals 2024 
+ (BRA)  [SEN]
 DTEND:20240427T200000Z
 DTSTAMP:20240426T100000Z
 DTSTART:20240426T100000Z
-SUMMARY:SEN Panamerican/Oceania Senior Championships Individuals 2024
-UID:20240426T100000ZPanamerican/OceaniaSeniorChampionshipsIndividuals2024
+SUMMARY:SEN Panamerican and Oceania Championships Seniors Individuals 2024
+UID:20240426T100000ZPanamericanandOceaniaChampionshipsSeniorsIndividuals202
+ 4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Telavi Cadet European Cup 2024 (GEO) Continental Cup [CAD]
