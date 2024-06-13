@@ -2290,12 +2290,12 @@ SUMMARY:SEN Marrakech African Open 2024
 UID:20240601T100000ZMarrakechAfricanOpen2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Tahiti Oceania Open 2024 (PYF) Oceanian Open [SEN]
+DESCRIPTION:Tahiti Oceanian Open 2024 (PYF) Oceanian Open [SEN]
 DTEND:20240602T200000Z
 DTSTAMP:20240601T100000Z
 DTSTART:20240601T100000Z
-SUMMARY:SEN Tahiti Oceania Open 2024
-UID:20240601T100000ZTahitiOceaniaOpen2024
+SUMMARY:SEN Tahiti Oceanian Open 2024
+UID:20240601T100000ZTahitiOceanianOpen2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Graz Junior European Cup 2024 (AUT) Continental Cup [JUN]
@@ -2586,13 +2586,13 @@ SUMMARY:JUN Hong Kong Junior Asian Cup 2024
 UID:20240818T100000ZHongKongJuniorAsianCup2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:World Championships Cadets Individuals 2024 (PER) World Champio
- nships [CAD]
+DESCRIPTION:Lima World Championships Cadets Individuals 2024 (PER) World Ch
+ ampionships [CAD]
 DTEND:20240831T200000Z
 DTSTAMP:20240828T100000Z
 DTSTART:20240828T100000Z
-SUMMARY:CAD World Championships Cadets Individuals 2024
-UID:20240828T100000ZWorldChampionshipsCadetsIndividuals2024
+SUMMARY:CAD Lima World Championships Cadets Individuals 2024
+UID:20240828T100000ZLimaWorldChampionshipsCadetsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Asian Cadet Continental Championships 2024 Individuals (KOR) As
@@ -2890,13 +2890,13 @@ SUMMARY:CAD Koper Cadet European Cup 2024
 UID:20241026T100000ZKoperCadetEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:World Championships Veterans 2024 (USA) Veteran World Champions
- hips [SEN]
+DESCRIPTION:Las Vegas World Championships Veterans 2024 (USA) Veteran World
+  Championships [SEN]
 DTEND:20241107T200000Z
 DTSTAMP:20241104T100000Z
 DTSTART:20241104T100000Z
-SUMMARY:SEN World Championships Veterans 2024
-UID:20241104T100000ZWorldChampionshipsVeterans2024
+SUMMARY:SEN Las Vegas World Championships Veterans 2024
+UID:20241104T100000ZLasVegasWorldChampionshipsVeterans2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rome European Open 2024 (ITA) European Open [SEN]
