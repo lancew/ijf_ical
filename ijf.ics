@@ -2596,20 +2596,20 @@ SUMMARY:JUN African Junior Championships Individuals 2024
 UID:20240817T100000ZAfricanJuniorChampionshipsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Hong Kong Junior Asian Cup 2024 (HKG) Continental Cup [JUN]
+DESCRIPTION:Hong Kong Cadet Asian Cup 2024 (HKG) Continental Cup [CAD]
 DTEND:20240818T200000Z
 DTSTAMP:20240818T100000Z
 DTSTART:20240818T100000Z
-SUMMARY:JUN Hong Kong Junior Asian Cup 2024
-UID:20240818T100000ZHongKongJuniorAsianCup2024
+SUMMARY:CAD Hong Kong Cadet Asian Cup 2024
+UID:20240818T100000ZHongKongCadetAsianCup2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Hong Kong Cadet Asian Cup 2024 (HKG) Continental Cup [CAD]
+DESCRIPTION:Hong Kong Junior Asian Cup 2024 (HKG) Continental Cup [JUN]
 DTEND:20240819T200000Z
 DTSTAMP:20240819T100000Z
 DTSTART:20240819T100000Z
-SUMMARY:CAD Hong Kong Cadet Asian Cup 2024
-UID:20240819T100000ZHongKongCadetAsianCup2024
+SUMMARY:JUN Hong Kong Junior Asian Cup 2024
+UID:20240819T100000ZHongKongJuniorAsianCup2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lima World Championships Cadets Individuals 2024 (PER) World Ch
@@ -2621,13 +2621,13 @@ SUMMARY:CAD Lima World Championships Cadets Individuals 2024
 UID:20240828T100000ZLimaWorldChampionshipsCadetsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Asian Cadet Continental Championships 2024 Individuals (KOR) As
- ian Championships [CAD]
+DESCRIPTION:Asian Cadet Championships 2024 Individuals (KOR) Asian Champion
+ ships [CAD]
 DTEND:20240830T200000Z
 DTSTAMP:20240829T100000Z
 DTSTART:20240829T100000Z
-SUMMARY:CAD Asian Cadet Continental Championships 2024 Individuals
-UID:20240829T100000ZAsianCadetContinentalChampionships2024Individuals
+SUMMARY:CAD Asian Cadet Championships 2024 Individuals
+UID:20240829T100000ZAsianCadetChampionships2024Individuals
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Asian Junior Championships 2024 (KOR) Asian Championships [JUN]
