@@ -2889,6 +2889,33 @@ SUMMARY:CAD Koper Cadet European Cup 2024
 UID:20241026T100000ZKoperCadetEuropeanCup2024
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:European Judo Championships of the Small States 2024 Cadets (CY
+ P) European Championships [CAD]
+DTEND:20241102T200000Z
+DTSTAMP:20241102T100000Z
+DTSTART:20241102T100000Z
+SUMMARY:CAD European Judo Championships of the Small States 2024 Cadets
+UID:20241102T100000ZEuropeanJudoChampionshipsoftheSmallStates2024Cadets
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:European Judo Championships of the Small States 2024 Seniors (C
+ YP) European Championships [SEN]
+DTEND:20241103T200000Z
+DTSTAMP:20241103T100000Z
+DTSTART:20241103T100000Z
+SUMMARY:SEN European Judo Championships of the Small States 2024 Seniors
+UID:20241103T100000ZEuropeanJudoChampionshipsoftheSmallStates2024Seniors
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:European Judo Championships of the Small States 2022 Teams (CYP
+ ) Mixed Team Championships [SEN]
+DTEND:20241103T200000Z
+DTSTAMP:20241103T100000Z
+DTSTART:20241103T100000Z
+SUMMARY:SEN European Judo Championships of the Small States 2022 Teams
+UID:20241103T100000ZEuropeanJudoChampionshipsoftheSmallStates2022Teams
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Las Vegas World Championships Veterans 2024 (USA) Veteran World
   Championships [SEN]
 DTEND:20241107T200000Z
