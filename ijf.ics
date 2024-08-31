@@ -2621,13 +2621,12 @@ SUMMARY:CAD Lima World Championships Cadets Individuals 2024
 UID:20240828T100000ZLimaWorldChampionshipsCadetsIndividuals2024
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Asian Cadet Championships 2024 Individuals (KOR) Asian Champion
- ships [CAD]
+DESCRIPTION:Asian Cadet Championships 2024 (KOR) Asian Championships [CAD]
 DTEND:20240830T200000Z
 DTSTAMP:20240829T100000Z
 DTSTART:20240829T100000Z
-SUMMARY:CAD Asian Cadet Championships 2024 Individuals
-UID:20240829T100000ZAsianCadetChampionships2024Individuals
+SUMMARY:CAD Asian Cadet Championships 2024
+UID:20240829T100000ZAsianCadetChampionships2024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Asian Junior Championships 2024 (KOR) Asian Championships [JUN]
