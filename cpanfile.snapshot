@@ -263,10 +263,10 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  Compress-Raw-Zlib-2.206
-    pathname: P/PM/PMQS/Compress-Raw-Zlib-2.206.tar.gz
+  Compress-Raw-Zlib-2.213
+    pathname: P/PM/PMQS/Compress-Raw-Zlib-2.213.tar.gz
     provides:
-      Compress::Raw::Zlib 2.206
+      Compress::Raw::Zlib 2.213
     requirements:
       ExtUtils::MakeMaker 0
   Const-Fast-0.014
@@ -282,10 +282,10 @@ DISTRIBUTIONS
       perl 5.008
       strict 0
       warnings 0
-  Cpanel-JSON-XS-4.30
-    pathname: R/RU/RURBAN/Cpanel-JSON-XS-4.30.tar.gz
+  Cpanel-JSON-XS-4.38
+    pathname: R/RU/RURBAN/Cpanel-JSON-XS-4.38.tar.gz
     provides:
-      Cpanel::JSON::XS 4.30
+      Cpanel::JSON::XS 4.38
       Cpanel::JSON::XS::Type undef
     requirements:
       Carp 0
@@ -549,20 +549,6 @@ DISTRIBUTIONS
       HTML::Tagset 3.20
     requirements:
       ExtUtils::MakeMaker 0
-  HTTP-CookieJar-0.014
-    pathname: D/DA/DAGOLDEN/HTTP-CookieJar-0.014.tar.gz
-    provides:
-      HTTP::CookieJar 0.014
-      HTTP::CookieJar::LWP 0.014
-    requirements:
-      Carp 0
-      ExtUtils::MakeMaker 6.17
-      HTTP::Date 0
-      Time::Local 1.1901
-      parent 0
-      perl 5.008001
-      strict 0
-      warnings 0
   HTTP-Cookies-6.04
     pathname: O/OA/OALDERS/HTTP-Cookies-6.04.tar.gz
     provides:
@@ -708,13 +694,13 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
-  JSON-MaybeXS-1.004005
-    pathname: E/ET/ETHER/JSON-MaybeXS-1.004005.tar.gz
+  JSON-MaybeXS-1.004008
+    pathname: E/ET/ETHER/JSON-MaybeXS-1.004008.tar.gz
     provides:
-      JSON::MaybeXS 1.004005
+      JSON::MaybeXS 1.004008
     requirements:
       Carp 0
-      Cpanel::JSON::XS 2.3310
+      Cpanel::JSON::XS 4.38
       ExtUtils::MakeMaker 0
       JSON::PP 2.27300
       Scalar::Util 0
@@ -726,11 +712,11 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006002
-  LWP-Protocol-https-6.11
-    pathname: O/OA/OALDERS/LWP-Protocol-https-6.11.tar.gz
+  LWP-Protocol-https-6.14
+    pathname: O/OA/OALDERS/LWP-Protocol-https-6.14.tar.gz
     provides:
-      LWP::Protocol::https 6.11
-      LWP::Protocol::https::Socket 6.11
+      LWP::Protocol::https 6.14
+      LWP::Protocol::https::Socket 6.14
     requirements:
       ExtUtils::MakeMaker 0
       IO::Socket::SSL 1.970
@@ -1365,32 +1351,32 @@ DISTRIBUTIONS
       XSLoader 0
       lib 0
       perl 5.008001
-  libwww-perl-6.72
-    pathname: O/OA/OALDERS/libwww-perl-6.72.tar.gz
+  libwww-perl-6.77
+    pathname: O/OA/OALDERS/libwww-perl-6.77.tar.gz
     provides:
-      LWP 6.72
-      LWP::Authen::Basic 6.72
-      LWP::Authen::Digest 6.72
-      LWP::Authen::Ntlm 6.72
-      LWP::ConnCache 6.72
-      LWP::Debug 6.72
-      LWP::Debug::TraceHTTP 6.72
-      LWP::DebugFile 6.72
-      LWP::MemberMixin 6.72
-      LWP::Protocol 6.72
-      LWP::Protocol::cpan 6.72
-      LWP::Protocol::data 6.72
-      LWP::Protocol::file 6.72
-      LWP::Protocol::ftp 6.72
-      LWP::Protocol::gopher 6.72
-      LWP::Protocol::http 6.72
-      LWP::Protocol::loopback 6.72
-      LWP::Protocol::mailto 6.72
-      LWP::Protocol::nntp 6.72
-      LWP::Protocol::nogo 6.72
-      LWP::RobotUA 6.72
-      LWP::Simple 6.72
-      LWP::UserAgent 6.72
+      LWP 6.77
+      LWP::Authen::Basic 6.77
+      LWP::Authen::Digest 6.77
+      LWP::Authen::Ntlm 6.77
+      LWP::ConnCache 6.77
+      LWP::Debug 6.77
+      LWP::Debug::TraceHTTP 6.77
+      LWP::DebugFile 6.77
+      LWP::MemberMixin 6.77
+      LWP::Protocol 6.77
+      LWP::Protocol::cpan 6.77
+      LWP::Protocol::data 6.77
+      LWP::Protocol::file 6.77
+      LWP::Protocol::ftp 6.77
+      LWP::Protocol::gopher 6.77
+      LWP::Protocol::http 6.77
+      LWP::Protocol::loopback 6.77
+      LWP::Protocol::mailto 6.77
+      LWP::Protocol::nntp 6.77
+      LWP::Protocol::nogo 6.77
+      LWP::RobotUA 6.77
+      LWP::Simple 6.77
+      LWP::UserAgent 6.77
     requirements:
       Digest::MD5 0
       Encode 2.12
@@ -1402,7 +1388,6 @@ DISTRIBUTIONS
       Getopt::Long 0
       HTML::Entities 0
       HTML::HeadParser 3.71
-      HTTP::CookieJar::LWP 0
       HTTP::Cookies 6
       HTTP::Date 6
       HTTP::Negotiate 6
