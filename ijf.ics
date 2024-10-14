@@ -3026,6 +3026,15 @@ SUMMARY:SEN Tokyo International Training Camp Week 1
 UID:20241209T100000ZTokyoInternationalTrainingCampWeek1
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Tokyo International Training Camp Week 2 (JPN) Continental Cup 
+ [SEN]
+DTEND:20241216T200000Z
+DTSTAMP:20241216T100000Z
+DTSTART:20241216T100000Z
+SUMMARY:SEN Tokyo International Training Camp Week 2
+UID:20241216T100000ZTokyoInternationalTrainingCampWeek2
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:European Club Championships 2024 (FRA) Mixed Team Championships
   [SEN]
 DTEND:20241221T200000Z
