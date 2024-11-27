@@ -3035,8 +3035,7 @@ SUMMARY:SEN Tokyo International Training Camp Week 2
 UID:20241216T100000ZTokyoInternationalTrainingCampWeek2
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:European Club Championships 2024 (FRA) Mixed Team Championships
-  [SEN]
+DESCRIPTION:European Club Championships 2024 (FRA) Team event [SEN]
 DTEND:20241221T200000Z
 DTSTAMP:20241221T100000Z
 DTSTART:20241221T100000Z
