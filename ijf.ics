@@ -3035,12 +3035,12 @@ SUMMARY:SEN Tokyo International Training Camp Week 2
 UID:20241216T100000ZTokyoInternationalTrainingCampWeek2
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:European Club Championships 2024 (FRA) Team event [SEN]
+DESCRIPTION:__European Club Championships 2024__ (FRA) Team event [SEN]
 DTEND:20241221T200000Z
 DTSTAMP:20241221T100000Z
 DTSTART:20241221T100000Z
-SUMMARY:SEN European Club Championships 2024
-UID:20241221T100000ZEuropeanClubChampionships2024
+SUMMARY:SEN __European Club Championships 2024__
+UID:20241221T100000Z__EuropeanClubChampionships2024__
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Tel Aviv Grand Slam 2024 (ISR) Grand Slam [SEN]
