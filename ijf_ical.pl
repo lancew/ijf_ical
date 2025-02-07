@@ -21,7 +21,7 @@ my $json;
 
 $|++;
 
-for my $year (qw/2023 2024/) {
+for my $year (qw/2025/) {
     for my $age (qw/SEN JUN CAD/) {
         my $url
             = 'https://data.ijf.org/'
