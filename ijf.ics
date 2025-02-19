@@ -171,12 +171,12 @@ SUMMARY:SEN Riga Veteran European Cup 2025
 UID:20250222T100000ZRigaVeteranEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Tashkent Grand Slam 2025 (UZB) Grand Slam [SEN]
+DESCRIPTION:OTP Group Tashkent Grand Slam 2025 (UZB) Grand Slam [SEN]
 DTEND:20250302T200000Z
 DTSTAMP:20250228T100000Z
 DTSTART:20250228T100000Z
-SUMMARY:SEN Tashkent Grand Slam 2025
-UID:20250228T100000ZTashkentGrandSlam2025
+SUMMARY:SEN OTP Group Tashkent Grand Slam 2025
+UID:20250228T100000ZOTPGroupTashkentGrandSlam2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Malaga Junior European Cup 2025 (ESP) Continental Cup [JUN]
@@ -427,12 +427,12 @@ SUMMARY:CAD Radom European Kata Tournament 2025
 UID:20250412T100000ZRadomEuropeanKataTournament2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Telavi Cadet European Cup 2025 (GEO) Continental Cup [CAD]
+DESCRIPTION:Tbilisi Cadet European Cup 2025 (GEO) Continental Cup [CAD]
 DTEND:20250413T200000Z
 DTSTAMP:20250412T100000Z
 DTSTART:20250412T100000Z
-SUMMARY:CAD Telavi Cadet European Cup 2025
-UID:20250412T100000ZTelaviCadetEuropeanCup2025
+SUMMARY:CAD Tbilisi Cadet European Cup 2025
+UID:20250412T100000ZTbilisiCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Panamerican and Oceania Championships Cadets Individuals 2025 (
@@ -1012,13 +1012,13 @@ SUMMARY:JUN Amman Junior Asian Cup 2025
 UID:20250823T100000ZAmmanJuniorAsianCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Sofia World Cadet Championships 2025 Individuals (BUL) World Ch
- ampionships [CAD]
+DESCRIPTION:OTP Group Sofia World Cadet Championships 2025 Individuals (BUL
+ ) World Championships [CAD]
 DTEND:20250830T200000Z
 DTSTAMP:20250827T100000Z
 DTSTART:20250827T100000Z
-SUMMARY:CAD Sofia World Cadet Championships 2025 Individuals
-UID:20250827T100000ZSofiaWorldCadetChampionships2025Individuals
+SUMMARY:CAD OTP Group Sofia World Cadet Championships 2025 Individuals
+UID:20250827T100000ZOTPGroupSofiaWorldCadetChampionships2025Individuals
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:European Judo Championships Juniors Bratislava 2025 (SVK) Europ
