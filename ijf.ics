@@ -246,12 +246,13 @@ SUMMARY:JUN Louvain-la-Neuve IJF Kata World Series 2025
 UID:20250308T100000ZLouvain-la-NeuveIJFKataWorldSeries2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Antalya Cadet European Cup 2025 (TUR) Continental Cup [CAD]
+DESCRIPTION:Antalya Millennium Cadet European Cup 2025 (TUR) Continental Cu
+ p [CAD]
 DTEND:20250309T200000Z
 DTSTAMP:20250308T100000Z
 DTSTART:20250308T100000Z
-SUMMARY:CAD Antalya Cadet European Cup 2025
-UID:20250308T100000ZAntalyaCadetEuropeanCup2025
+SUMMARY:CAD Antalya Millennium Cadet European Cup 2025
+UID:20250308T100000ZAntalyaMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Louvain-la-Neuve IJF Kata World Series 2025 (BEL) Kata Tourname
@@ -297,12 +298,13 @@ SUMMARY:SEN Rio de Janeiro Panamerican Open 2025
 UID:20250315T100000ZRiodeJaneiroPanamericanOpen2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Porec Cadet European Cup 2025 (CRO) Continental Cup [CAD]
+DESCRIPTION:Porec Millennium Cadet European Cup 2025 (CRO) Continental Cup 
+ [CAD]
 DTEND:20250316T200000Z
 DTSTAMP:20250315T100000Z
 DTSTART:20250315T100000Z
-SUMMARY:CAD Porec Cadet European Cup 2025
-UID:20250315T100000ZPorecCadetEuropeanCup2025
+SUMMARY:CAD Porec Millennium Cadet European Cup 2025
+UID:20250315T100000ZPorecMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Tbilisi Grand Slam 2025 (GEO) Grand Slam [SEN]
@@ -373,12 +375,13 @@ SUMMARY:CAD Panama Cadet Panamerican Cup 2025
 UID:20250405T100000ZPanamaCadetPanamericanCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Teplice Cadet European Cup 2025 (CZE) Continental Cup [CAD]
+DESCRIPTION:Teplice Millennium Cadet European Cup 2025 (CZE) Continental Cu
+ p [CAD]
 DTEND:20250406T200000Z
 DTSTAMP:20250405T100000Z
 DTSTART:20250405T100000Z
-SUMMARY:CAD Teplice Cadet European Cup 2025
-UID:20250405T100000ZTepliceCadetEuropeanCup2025
+SUMMARY:CAD Teplice Millennium Cadet European Cup 2025
+UID:20250405T100000ZTepliceMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Panama Junior Panamerican Cup 2025 (PAN) Continental Cup [JUN]
@@ -429,12 +432,13 @@ SUMMARY:JUN Reims IJF Kata World Series 2025
 UID:20250412T100000ZReimsIJFKataWorldSeries2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Tbilisi Cadet European Cup 2025 (GEO) Continental Cup [CAD]
+DESCRIPTION:Tbilisi Millennium Cadet European Cup 2025 (GEO) Continental Cu
+ p [CAD]
 DTEND:20250413T200000Z
 DTSTAMP:20250412T100000Z
 DTSTART:20250412T100000Z
-SUMMARY:CAD Tbilisi Cadet European Cup 2025
-UID:20250412T100000ZTbilisiCadetEuropeanCup2025
+SUMMARY:CAD Tbilisi Millennium Cadet European Cup 2025
+UID:20250412T100000ZTbilisiMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Reims IJF Kata World Series 2025 (FRA) Kata Tournament [CAD]
@@ -526,12 +530,13 @@ SUMMARY:CAD Radom European Kata Tournament 2025
 UID:20250426T100000ZRadomEuropeanKataTournament2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Berlin Cadet European Cup 2025 (GER) Continental Cup [CAD]
+DESCRIPTION:Berlin Millennium Cadet European Cup 2025 (GER) Continental Cup
+  [CAD]
 DTEND:20250427T200000Z
 DTSTAMP:20250426T100000Z
 DTSTART:20250426T100000Z
-SUMMARY:CAD Berlin Cadet European Cup 2025
-UID:20250426T100000ZBerlinCadetEuropeanCup2025
+SUMMARY:CAD Berlin Millennium Cadet European Cup 2025
+UID:20250426T100000ZBerlinMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dushanbe Grand Slam 2025 (TJK) Grand Slam [SEN]
@@ -558,12 +563,13 @@ SUMMARY:JUN Istanbul Junior European Cup 2025
 UID:20250503T100000ZIstanbulJuniorEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Goygol Cadet European Cup 2025 (AZE) Continental Cup [CAD]
+DESCRIPTION:Goygol Millennium Cadet European Cup 2025 (AZE) Continental Cup
+  [CAD]
 DTEND:20250504T200000Z
 DTSTAMP:20250503T100000Z
 DTSTART:20250503T100000Z
-SUMMARY:CAD Goygol Cadet European Cup 2025
-UID:20250503T100000ZGoygolCadetEuropeanCup2025
+SUMMARY:CAD Goygol Millennium Cadet European Cup 2025
+UID:20250503T100000ZGoygolMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mandurah Junior Oceania Cup 2025 (AUS) Continental Cup [JUN]
@@ -640,13 +646,13 @@ SUMMARY:SEN Luanda African Open 2025
 UID:20250517T100000ZLuandaAfricanOpen2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Bielsko Biala Cadet European Cup 2025 (POL) Continental Cup [CA
- D]
+DESCRIPTION:Bielsko Biala Millennium Cadet European Cup 2025 (POL) Continen
+ tal Cup [CAD]
 DTEND:20250518T200000Z
 DTSTAMP:20250517T100000Z
 DTSTART:20250517T100000Z
-SUMMARY:CAD Bielsko Biala Cadet European Cup 2025
-UID:20250517T100000ZBielskoBialaCadetEuropeanCup2025
+SUMMARY:CAD Bielsko Biala Millennium Cadet European Cup 2025
+UID:20250517T100000ZBielskoBialaMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Benidorm EJU OTC Training Camp 2025 (ESP) Other events [SEN]
@@ -732,12 +738,13 @@ SUMMARY:JUN Tashkent Junior Asian Cup 2025
 UID:20250524T100000ZTashkentJuniorAsianCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:TBC Cadet European Cup 2025 (POR) Continental Cup [CAD]
+DESCRIPTION:TBC Millennium Cadet European Cup 2025 (POR) Continental Cup [C
+ AD]
 DTEND:20250525T200000Z
 DTSTAMP:20250524T100000Z
 DTSTART:20250524T100000Z
-SUMMARY:CAD TBC Cadet European Cup 2025
-UID:20250524T100000ZTBCCadetEuropeanCup2025
+SUMMARY:CAD TBC Millennium Cadet European Cup 2025
+UID:20250524T100000ZTBCMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Games of the Small States of Europe 2025 (AND) European Champio
@@ -1341,12 +1348,13 @@ SUMMARY:SEN Abu Dhabi Grand Slam 2025
 UID:20251017T100000ZAbuDhabiGrandSlam2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Riga Cadet European Cup 2025 (LAT) Continental Cup [CAD]
+DESCRIPTION:Riga Millennium Cadet European Cup 2025 (LAT) Continental Cup [
+ CAD]
 DTEND:20251019T200000Z
 DTSTAMP:20251018T100000Z
 DTSTART:20251018T100000Z
-SUMMARY:CAD Riga Cadet European Cup 2025
-UID:20251018T100000ZRigaCadetEuropeanCup2025
+SUMMARY:CAD Riga Millennium Cadet European Cup 2025
+UID:20251018T100000ZRigaMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Sarajevo European Open 2025 (BIH) European Open [SEN]
@@ -1373,12 +1381,13 @@ SUMMARY:SEN Jelsa Veteran European Cup 2025
 UID:20251025T100000ZJelsaVeteranEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Koper Cadet European Cup 2025 (SLO) Continental Cup [CAD]
+DESCRIPTION:Koper Millennium Cadet European Cup 2025 (SLO) Continental Cup 
+ [CAD]
 DTEND:20251026T200000Z
 DTSTAMP:20251025T100000Z
 DTSTART:20251025T100000Z
-SUMMARY:CAD Koper Cadet European Cup 2025
-UID:20251025T100000ZKoperCadetEuropeanCup2025
+SUMMARY:CAD Koper Millennium Cadet European Cup 2025
+UID:20251025T100000ZKoperMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Portugal Grand Prix TBC (POR) Grand Prix [SEN]
@@ -1432,12 +1441,13 @@ SUMMARY:SEN Rome European Open 2025
 UID:20251108T100000ZRomeEuropeanOpen2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Gyor Cadet European Cup 2025 (HUN) Continental Cup [CAD]
+DESCRIPTION:Gyor Millennium Cadet European Cup 2025 (HUN) Continental Cup [
+ CAD]
 DTEND:20251109T200000Z
 DTSTAMP:20251108T100000Z
 DTSTART:20251108T100000Z
-SUMMARY:CAD Gyor Cadet European Cup 2025
-UID:20251108T100000ZGyorCadetEuropeanCup2025
+SUMMARY:CAD Gyor Millennium Cadet European Cup 2025
+UID:20251108T100000ZGyorMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rome EJU OTC Training Camp 2025 (ITA) Other events [SEN]
@@ -1529,13 +1539,13 @@ SUMMARY:JUN Podgorica Junior European Cup 2025
 UID:20251122T100000ZPodgoricaJuniorEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Thessaloniki Cadet European Cup 2025 (GRE) Continental Cup [CAD
- ]
+DESCRIPTION:Thessaloniki Millennium Cadet European Cup 2025 (GRE) Continent
+ al Cup [CAD]
 DTEND:20251123T200000Z
 DTSTAMP:20251122T100000Z
 DTSTART:20251122T100000Z
-SUMMARY:CAD Thessaloniki Cadet European Cup 2025
-UID:20251122T100000ZThessalonikiCadetEuropeanCup2025
+SUMMARY:CAD Thessaloniki Millennium Cadet European Cup 2025
+UID:20251122T100000ZThessalonikiMillenniumCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Maribor Junior European Cup 2025 (SLO) Continental Cup [JUN]
