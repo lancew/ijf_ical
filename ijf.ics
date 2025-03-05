@@ -671,13 +671,13 @@ SUMMARY:CAD Asuncion Cadet Panamerican Cup 2025
 UID:20250521T100000ZAsuncionCadetPanamericanCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:European Judo Championships Veterans 2025 (LAT) Veteran Contine
- ntal Championships [SEN]
+DESCRIPTION:European Judo Championships Veterans 2025 Individuals (LAT) Vet
+ eran Continental Championships [SEN]
 DTEND:20250525T200000Z
 DTSTAMP:20250522T100000Z
 DTSTART:20250522T100000Z
-SUMMARY:SEN European Judo Championships Veterans 2025
-UID:20250522T100000ZEuropeanJudoChampionshipsVeterans2025
+SUMMARY:SEN European Judo Championships Veterans 2025 Individuals
+UID:20250522T100000ZEuropeanJudoChampionshipsVeterans2025Individuals
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Asuncion Junior Panamerican Cup 2025 (PAR) Continental Cup [JUN
