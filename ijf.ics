@@ -432,13 +432,13 @@ SUMMARY:JUN Reims IJF Kata World Series 2025
 UID:20250412T100000ZReimsIJFKataWorldSeries2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Tbilisi Millennium team Cadet European Cup 2025 (GEO) Continent
+DESCRIPTION:Tbilisi Millennium Team Cadet European Cup 2025 (GEO) Continent
  al Cup [CAD]
 DTEND:20250413T200000Z
 DTSTAMP:20250412T100000Z
 DTSTART:20250412T100000Z
-SUMMARY:CAD Tbilisi Millennium team Cadet European Cup 2025
-UID:20250412T100000ZTbilisiMillenniumteamCadetEuropeanCup2025
+SUMMARY:CAD Tbilisi Millennium Team Cadet European Cup 2025
+UID:20250412T100000ZTbilisiMillenniumTeamCadetEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Reims IJF Kata World Series 2025 (FRA) Kata Tournament [CAD]
