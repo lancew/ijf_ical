@@ -629,13 +629,13 @@ SUMMARY:SEN Gori Senior European Cup 2025
 UID:20250510T100000ZGoriSeniorEuropeanCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Astana Internationa Training Camp 2025 (KAZ) Continental Cup [S
- EN]
+DESCRIPTION:Astana International Training Camp 2025 (KAZ) Continental Cup [
+ SEN]
 DTEND:20250514T200000Z
 DTSTAMP:20250512T100000Z
 DTSTART:20250512T100000Z
-SUMMARY:SEN Astana Internationa Training Camp 2025
-UID:20250512T100000ZAstanaInternationaTrainingCamp2025
+SUMMARY:SEN Astana International Training Camp 2025
+UID:20250512T100000ZAstanaInternationalTrainingCamp2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Benidorm European Open 2025 (ESP) European Open [SEN]
