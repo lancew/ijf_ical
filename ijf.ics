@@ -638,12 +638,12 @@ SUMMARY:SEN Astana International Training Camp 2025
 UID:20250512T100000ZAstanaInternationalTrainingCamp2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Benidorm European Open 2025 (ESP) European Open [SEN]
+DESCRIPTION:La Nucia European Open 2025 (ESP) European Open [SEN]
 DTEND:20250518T200000Z
 DTSTAMP:20250517T100000Z
 DTSTART:20250517T100000Z
-SUMMARY:SEN Benidorm European Open 2025
-UID:20250517T100000ZBenidormEuropeanOpen2025
+SUMMARY:SEN La Nucia European Open 2025
+UID:20250517T100000ZLaNuciaEuropeanOpen2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bielsko Biala Millennium Team Cadet European Cup 2025 (POL) Con
@@ -1124,13 +1124,13 @@ SUMMARY:JUN Amman Junior Asian Cup 2025
 UID:20250823T100000ZAmmanJuniorAsianCup2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:OTP Group Sofia World Cadet Championships 2025 Individuals (BUL
- ) World Championships [CAD]
+DESCRIPTION:OTP Group Sofia World Championships Cadets 2025 Individuals (BU
+ L) World Championships [CAD]
 DTEND:20250830T200000Z
 DTSTAMP:20250827T100000Z
 DTSTART:20250827T100000Z
-SUMMARY:CAD OTP Group Sofia World Cadet Championships 2025 Individuals
-UID:20250827T100000ZOTPGroupSofiaWorldCadetChampionships2025Individuals
+SUMMARY:CAD OTP Group Sofia World Championships Cadets 2025 Individuals
+UID:20250827T100000ZOTPGroupSofiaWorldChampionshipsCadets2025Individuals
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:European Judo Championships Juniors Bratislava 2025 (SVK) Europ
