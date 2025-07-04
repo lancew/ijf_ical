@@ -1275,6 +1275,15 @@ SUMMARY:SEN Maintal European Veterans Tournament 2025
 UID:20250927T100000ZMaintalEuropeanVeteransTournament2025
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:Lima World Championships Juniors Individuals 2025 (PER) World C
+ hampionships [JUN]
+DTEND:20251005T200000Z
+DTSTAMP:20251002T100000Z
+DTSTART:20251002T100000Z
+SUMMARY:JUN Lima World Championships Juniors Individuals 2025
+UID:20251002T100000ZLimaWorldChampionshipsJuniorsIndividuals2025
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Maintal European Kata Tournament 2025 (GER) Kata Tournament [SE
  N]
 DTEND:20251004T200000Z
@@ -1392,15 +1401,6 @@ DTSTAMP:20251018T100000Z
 DTSTART:20251018T100000Z
 SUMMARY:CAD Riga Millennium Team Cadet European Cup 2025
 UID:20251018T100000ZRigaMillenniumTeamCadetEuropeanCup2025
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Amman World Championships Juniors Individuals 2025 (JOR) World 
- Championships [JUN]
-DTEND:20251026T200000Z
-DTSTAMP:20251023T100000Z
-DTSTART:20251023T100000Z
-SUMMARY:JUN Amman World Championships Juniors Individuals 2025
-UID:20251023T100000ZAmmanWorldChampionshipsJuniorsIndividuals2025
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Sarajevo European Open 2025 (BIH) European Open [SEN]
