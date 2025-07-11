@@ -976,15 +976,6 @@ SUMMARY:CAD African Cadets Championships 2025
 UID:20250717T100000ZAfricanCadetsChampionships2025
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:African Cadet Championships 2025 Mixed Teams (ANG) Mixed Team C
- hampionships [CAD]
-DTEND:20250718T200000Z
-DTSTAMP:20250718T100000Z
-DTSTART:20250718T100000Z
-SUMMARY:CAD African Cadet Championships 2025 Mixed Teams
-UID:20250718T100000ZAfricanCadetChampionships2025MixedTeams
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:African Junior Championships Individuals 2025 (ANG) African Cha
  mpionships [JUN]
 DTEND:20250719T200000Z
