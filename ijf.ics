@@ -1175,6 +1175,15 @@ SUMMARY:SEN Madrid European Kata Tournament 2025
 UID:20250906T100000ZMadridEuropeanKataTournament2025
 END:VEVENT
 BEGIN:VEVENT
+DESCRIPTION:San Salvador Senior Central American and Caribbean Cup  2025 (E
+ SA) Panamerica Championships [SEN]
+DTEND:20250906T200000Z
+DTSTAMP:20250906T100000Z
+DTSTART:20250906T100000Z
+SUMMARY:SEN San Salvador Senior Central American and Caribbean Cup  2025
+UID:20250906T100000ZSanSalvadorSeniorCentralAmericanandCaribbeanCup2025
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Madrid European Kata Tournament 2025 (ESP) Kata Tournament [JUN
  ]
 DTEND:20250906T200000Z
