@@ -468,6 +468,29 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       HTTP::Date 6
       perl 5.006002
+  File-Temp-0.2312
+    pathname: E/ET/ETHER/File-Temp-0.2312.tar.gz
+    provides:
+      File::Temp 0.2312
+    requirements:
+      Carp 0
+      Carp::Heavy 0
+      Cwd 0
+      Exporter 5.57
+      ExtUtils::MakeMaker 0
+      Fcntl 1.03
+      File::Path 2.06
+      File::Spec 0.8
+      IO::Handle 0
+      IO::Seekable 0
+      POSIX 0
+      Scalar::Util 0
+      Symbol 0
+      constant 0
+      overload 0
+      parent 0.221
+      perl 5.006
+      strict 0
   File-Which-1.27
     pathname: P/PL/PLICEASE/File-Which-1.27.tar.gz
     provides:
@@ -1351,32 +1374,32 @@ DISTRIBUTIONS
       XSLoader 0
       lib 0
       perl 5.008001
-  libwww-perl-6.77
-    pathname: O/OA/OALDERS/libwww-perl-6.77.tar.gz
+  libwww-perl-6.80
+    pathname: O/OA/OALDERS/libwww-perl-6.80.tar.gz
     provides:
-      LWP 6.77
-      LWP::Authen::Basic 6.77
-      LWP::Authen::Digest 6.77
-      LWP::Authen::Ntlm 6.77
-      LWP::ConnCache 6.77
-      LWP::Debug 6.77
-      LWP::Debug::TraceHTTP 6.77
-      LWP::DebugFile 6.77
-      LWP::MemberMixin 6.77
-      LWP::Protocol 6.77
-      LWP::Protocol::cpan 6.77
-      LWP::Protocol::data 6.77
-      LWP::Protocol::file 6.77
-      LWP::Protocol::ftp 6.77
-      LWP::Protocol::gopher 6.77
-      LWP::Protocol::http 6.77
-      LWP::Protocol::loopback 6.77
-      LWP::Protocol::mailto 6.77
-      LWP::Protocol::nntp 6.77
-      LWP::Protocol::nogo 6.77
-      LWP::RobotUA 6.77
-      LWP::Simple 6.77
-      LWP::UserAgent 6.77
+      LWP 6.80
+      LWP::Authen::Basic 6.80
+      LWP::Authen::Digest 6.80
+      LWP::Authen::Ntlm 6.80
+      LWP::ConnCache 6.80
+      LWP::Debug 6.80
+      LWP::Debug::TraceHTTP 6.80
+      LWP::DebugFile 6.80
+      LWP::MemberMixin 6.80
+      LWP::Protocol 6.80
+      LWP::Protocol::cpan 6.80
+      LWP::Protocol::data 6.80
+      LWP::Protocol::file 6.80
+      LWP::Protocol::ftp 6.80
+      LWP::Protocol::gopher 6.80
+      LWP::Protocol::http 6.80
+      LWP::Protocol::loopback 6.80
+      LWP::Protocol::mailto 6.80
+      LWP::Protocol::nntp 6.80
+      LWP::Protocol::nogo 6.80
+      LWP::RobotUA 6.80
+      LWP::Simple 6.80
+      LWP::UserAgent 6.80
     requirements:
       Digest::MD5 0
       Encode 2.12
