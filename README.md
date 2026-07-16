@@ -1,4 +1,4 @@
-[![Kritika Analysis Status](https://kritika.io/users/lancew/repos/9164114418542914/heads/master/status.svg)](https://kritika.io/users/lancew/repos/9164114418542914/heads/master/)
+[![.github/workflows/action.yml](https://github.com/lancew/ijf_ical/actions/workflows/action.yml/badge.svg)](https://github.com/lancew/ijf_ical/actions/workflows/action.yml)
 
 Simple script to create a Ical feed from IJF event on Judobase.
 
