@@ -1554,13 +1554,13 @@ SUMMARY:JUN Hoji Sharif Dushanbe Grand Prix Juniors 2026
 UID:20261024T100000ZHojiSharifDushanbeGrandPrixJuniors2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Kranjska Gora Millennium Team Cadet European Cup 2026 (SLO) Con
- tinental Cup [CAD]
+DESCRIPTION:Maribor Millennium Team Cadet European Cup 2026 (SLO) Continent
+ al Cup [CAD]
 DTEND:20261025T200000Z
 DTSTAMP:20261024T100000Z
 DTSTART:20261024T100000Z
-SUMMARY:CAD Kranjska Gora Millennium Team Cadet European Cup 2026
-UID:20261024T100000ZKranjskaGoraMillenniumTeamCadetEuropeanCup2026
+SUMMARY:CAD Maribor Millennium Team Cadet European Cup 2026
+UID:20261024T100000ZMariborMillenniumTeamCadetEuropeanCup2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Hoji Sharif Dushanbe ITC 2026 (TJK) Other events [JUN]
@@ -1777,12 +1777,12 @@ SUMMARY:SEN Rome European Open 2026
 UID:20261128T100000ZRomeEuropeanOpen2026
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Maribor Junior European Cup 2026 (SLO) Continental Cup [JUN]
+DESCRIPTION:Koper Junior European Cup 2026 (SLO) Continental Cup [JUN]
 DTEND:20261129T200000Z
 DTSTAMP:20261128T100000Z
 DTSTART:20261128T100000Z
-SUMMARY:JUN Maribor Junior European Cup 2026
-UID:20261128T100000ZMariborJuniorEuropeanCup2026
+SUMMARY:JUN Koper Junior European Cup 2026
+UID:20261128T100000ZKoperJuniorEuropeanCup2026
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Abidjan Cadet African Cup 2026 (CIV) Continental Cup [CAD]
