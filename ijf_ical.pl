@@ -56,8 +56,9 @@ for my $year (qw/2026/) {
 for my $event (@dates) {
     my $vevent = Data::ICal::Entry::Event->new;
 
-    my $uid = $event->{name};
+    my $uid = "$event->{id_competition}-" . $event->{name};
     $uid =~ s/ //smg;
+    $uid = $event->{age} . $uid;
 
     $event->{date_from} =~ m{(\d+)/(\d+)/(\d+)}xms
         or croak 'Date did not match';
@@ -88,6 +89,7 @@ for my $event (@dates) {
             hour  => 10
             )->ical
             . $uid,
+        'X-IJF-EVENTID' => $event->{id_competition},
     );
 
     $event->{date_to} =~ m{(\d+)/(\d+)/(\d+)}xms
